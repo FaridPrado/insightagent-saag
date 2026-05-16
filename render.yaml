@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: insightagent-saag
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: LLM_ENABLED
+        value: true
+      - key: LLM_PROVIDER_ORDER
+        value: gemini,openrouter,cerebras,groq
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: LLM_TIMEOUT_SECONDS
+        value: 28
+      - key: LLM_RETRIES_PER_PROVIDER
+        value: 2
+      - key: LLM_TEMPERATURE
+        value: 0.15
+      # Set this in Render Dashboard when the frontend is deployed separately on Vercel.
+      # Do not include trailing slash.
+      # Example: https://insightagent-saag.vercel.app,http://localhost:3000
+      - key: CORS_ORIGINS
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: CEREBRAS_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false

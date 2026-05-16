@@ -1,0 +1,721 @@
+fecha,cliente,segmento,pais,ciudad,responsable_cuenta,producto,plan,canal,estado,ingresos,cantidad,margen_bruto,tickets_soporte,nps,riesgo_churn,comentarios
+2025-01-01,Cliente 082,Pyme,Chile,Santiago,Luis Rivera,Automatización,Escala,Entrada,Expansión,1499.83,4,755.55,1,5,33.3,Bajo uso durante el último mes
+2025-01-02,Cliente 029,Pyme,Colombia,Bogotá,Luis Rivera,Soporte IA,Crecimiento,Aliado,Activo,695.72,2,483.43,2,7,19.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-03,Cliente 059,Mediana empresa,Estados Unidos,Austin,Ana Torres,Pagos,Inicio,Prospección,Activo,1629.88,8,818.27,0,7,0,Varios tickets sobre confiabilidad de la integración
+2025-01-04,Cliente 021,Pyme,Colombia,Medellín,Ana Torres,Pagos,Crecimiento,Aliado,Expansión,606.63,4,337.65,3,6,40.1,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-05,Cliente 030,Mediana empresa,Perú,Arequipa,Carlos Méndez,Analítica,Inicio,Prospección,Activo,1299.94,4,846.82,1,7,17.9,Bajo uso durante el último mes
+2025-01-06,Cliente 075,Pyme,Colombia,Bogotá,Daniel Ortiz,Soporte IA,Inicio,Entrada,Activo,689.05,4,327.31,2,8,15.9,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-01-07,Cliente 068,Pyme,México,CDMX,Ana Torres,Pagos,Escala,Prospección,Activo,835.36,1,637.69,1,8,5.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-01-08,Cliente 082,Pyme,Colombia,Medellín,Luis Rivera,Pagos,Enterprise,Entrada,En riesgo,1671.3,2,995.92,2,7,31.7,Preocupación de precio durante la conversación de renovación
+2025-01-09,Cliente 008,Pyme,México,CDMX,Ana Torres,Soporte IA,Escala,Aliado,Activo,1024.99,1,528.3,1,8,0,Preocupación de precio durante la conversación de renovación
+2025-01-10,Cliente 040,Pyme,Chile,Valparaíso,Sofía Vega,Pagos,Crecimiento,Aliado,Activo,612.8,2,331.96,0,6,6.4,Preocupación de precio durante la conversación de renovación
+2025-01-11,Cliente 009,Enterprise,Perú,Lima,Daniel Ortiz,Automatización,Inicio,Referido,En riesgo,5202.6,21,3254.62,4,2,86.1,Alta adopción por parte del equipo de operaciones
+2025-01-12,Cliente 085,Pyme,México,Guadalajara,Ana Torres,Analítica,Inicio,Prospección,Activo,796.69,4,365.95,1,9,0,Alta adopción por parte del equipo de operaciones
+2025-01-13,Cliente 057,Mediana empresa,Perú,Lima,Ana Torres,Pagos,Escala,Entrada,Activo,4050.83,9,2409.56,0,7,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-01-14,Cliente 059,Pyme,Chile,Valparaíso,Luis Rivera,Automatización,Inicio,Entrada,Activo,722.39,5,444.41,1,6,22.7,Necesita apoyo de onboarding y documentación más clara
+2025-01-15,Cliente 008,Enterprise,Colombia,Bogotá,Ana Torres,Pagos,Inicio,Aliado,Activo,4776.27,20,3001.46,1,7,16.1,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-01-16,Cliente 027,Mediana empresa,Colombia,Medellín,Sofía Vega,Automatización,Escala,Prospección,Activo,4281.39,9,3230.08,1,6,23.4,Alta adopción por parte del equipo de operaciones
+2025-01-17,Cliente 010,Mediana empresa,México,CDMX,Carlos Méndez,Analítica,Escala,Prospección,Expansión,2826.17,6,1494.78,1,10,0,Alta adopción por parte del equipo de operaciones
+2025-01-18,Cliente 018,Pyme,Perú,Lima,Carlos Méndez,Sincronización CRM,Crecimiento,Prospección,Expansión,529.14,3,343.06,0,9,0,Bajo uso durante el último mes
+2025-01-19,Cliente 036,Pyme,Colombia,Bogotá,Carlos Méndez,Automatización,Escala,Referido,Activo,1300.56,7,869.77,3,6,36.4,Bajo uso durante el último mes
+2025-01-20,Cliente 017,Pyme,Colombia,Bogotá,Carlos Méndez,Automatización,Escala,Entrada,En riesgo,1140.69,4,709.01,3,2,76.0,Preocupación de precio durante la conversación de renovación
+2025-01-21,Cliente 021,Enterprise,Perú,Arequipa,Ana Torres,Automatización,Escala,Prospección,Activo,17465.77,15,11957.43,3,6,43.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-22,Cliente 061,Pyme,Perú,Arequipa,Carlos Méndez,Sincronización CRM,Escala,Aliado,Expansión,770.24,5,506.52,0,8,0,Bajo uso durante el último mes
+2025-01-23,Cliente 087,Enterprise,México,CDMX,Ana Torres,Sincronización CRM,Inicio,Prospección,En riesgo,3825.58,16,2689.82,1,2,45.3,Preocupación de precio durante la conversación de renovación
+2025-01-24,Cliente 033,Pyme,México,Monterrey,Daniel Ortiz,Automatización,Crecimiento,Entrada,En riesgo,1214.16,6,912.41,0,5,12.5,Bajo uso durante el último mes
+2025-01-25,Cliente 042,Pyme,Colombia,Bogotá,Luis Rivera,Soporte IA,Crecimiento,Referido,Activo,935.54,6,494.29,0,7,0,Varios tickets sobre confiabilidad de la integración
+2025-01-26,Cliente 060,Pyme,Chile,Valparaíso,Luis Rivera,Analítica,Inicio,Prospección,Expansión,459.08,3,350.15,1,8,11.1,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-01-27,Cliente 079,Enterprise,Colombia,Medellín,Daniel Ortiz,Automatización,Escala,Referido,Activo,12974.94,18,5475.37,4,6,40.1,Necesita apoyo de onboarding y documentación más clara
+2025-01-28,Cliente 090,Pyme,Colombia,Bogotá,Ana Torres,Soporte IA,Inicio,Referido,Activo,710.75,1,551.29,0,4,35.8,Bajo uso durante el último mes
+2025-01-29,Cliente 071,Pyme,Colombia,Medellín,Sofía Vega,Sincronización CRM,Escala,Prospección,Activo,1296.56,1,672.73,0,8,0,Necesita apoyo de onboarding y documentación más clara
+2025-01-30,Cliente 020,Pyme,Chile,Santiago,Ana Torres,Soporte IA,Crecimiento,Referido,Expansión,878.19,4,434.23,0,9,0,Bajo uso durante el último mes
+2025-01-31,Cliente 062,Pyme,Colombia,Medellín,Sofía Vega,Pagos,Escala,Aliado,En riesgo,1050.9,3,588.49,2,5,42.5,Necesita apoyo de onboarding y documentación más clara
+2025-02-01,Cliente 080,Mediana empresa,Estados Unidos,Nueva York,Daniel Ortiz,Analítica,Inicio,Referido,Activo,1355.72,5,794.74,2,7,16.2,Bajo uso durante el último mes
+2025-02-02,Cliente 036,Mediana empresa,Perú,Arequipa,Ana Torres,Soporte IA,Inicio,Entrada,Activo,2502.69,7,1755.0,2,4,55.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-02-03,Cliente 080,Pyme,Colombia,Cali,Ana Torres,Pagos,Enterprise,Referido,Activo,1973.66,1,1373.83,2,8,19.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-04,Cliente 014,Mediana empresa,Estados Unidos,Nueva York,Sofía Vega,Soporte IA,Enterprise,Aliado,Activo,4433.0,7,2024.48,0,7,6.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-02-05,Cliente 045,Mediana empresa,Chile,Santiago,Daniel Ortiz,Sincronización CRM,Inicio,Referido,Expansión,1745.09,5,799.24,3,5,53.6,Bajo uso durante el último mes
+2025-02-06,Cliente 023,Mediana empresa,Estados Unidos,Austin,Daniel Ortiz,Pagos,Escala,Referido,Activo,2740.18,8,1991.06,0,7,11.6,Bajo uso durante el último mes
+2025-02-07,Cliente 044,Pyme,Perú,Lima,Sofía Vega,Automatización,Crecimiento,Prospección,Expansión,960.76,3,708.0,0,6,2.2,Bajo uso durante el último mes
+2025-02-08,Cliente 063,Mediana empresa,Colombia,Medellín,Sofía Vega,Soporte IA,Escala,Entrada,Perdido,3324.46,7,2190.9,1,5,25.9,Varios tickets sobre confiabilidad de la integración
+2025-02-09,Cliente 046,Mediana empresa,Colombia,Medellín,Luis Rivera,Analítica,Escala,Prospección,Activo,2873.03,10,1760.91,1,5,23.3,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-10,Cliente 013,Mediana empresa,Colombia,Medellín,Luis Rivera,Sincronización CRM,Inicio,Aliado,En riesgo,1305.17,11,875.86,0,9,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-02-11,Cliente 062,Pyme,Colombia,Bogotá,Carlos Méndez,Soporte IA,Inicio,Entrada,Activo,494.0,6,220.65,0,6,5.0,Preocupación de precio durante la conversación de renovación
+2025-02-12,Cliente 016,Mediana empresa,México,Monterrey,Daniel Ortiz,Automatización,Escala,Referido,Expansión,3931.22,5,3052.24,2,5,40.2,Preocupación de precio durante la conversación de renovación
+2025-02-13,Cliente 081,Pyme,Chile,Santiago,Luis Rivera,Automatización,Crecimiento,Aliado,Expansión,698.29,6,406.53,0,6,6.6,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-02-14,Cliente 010,Mediana empresa,Estados Unidos,Nueva York,Daniel Ortiz,Automatización,Crecimiento,Aliado,Activo,3082.75,12,1374.0,0,8,1.0,Alta adopción por parte del equipo de operaciones
+2025-02-15,Cliente 060,Mediana empresa,Chile,Valparaíso,Daniel Ortiz,Pagos,Crecimiento,Entrada,Activo,2108.64,10,1560.8,0,4,18.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-02-16,Cliente 087,Mediana empresa,México,CDMX,Sofía Vega,Pagos,Crecimiento,Prospección,Expansión,1762.03,6,1051.97,0,8,0,Varios tickets sobre confiabilidad de la integración
+2025-02-17,Cliente 053,Mediana empresa,Colombia,Medellín,Daniel Ortiz,Analítica,Crecimiento,Prospección,Activo,2129.25,10,983.14,1,3,51.5,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-02-18,Cliente 053,Pyme,México,Monterrey,Sofía Vega,Soporte IA,Escala,Aliado,Expansión,1115.54,5,822.27,1,6,23.6,Necesita apoyo de onboarding y documentación más clara
+2025-02-19,Cliente 040,Mediana empresa,México,CDMX,Luis Rivera,Analítica,Crecimiento,Entrada,Activo,2852.19,9,1356.02,2,6,34.1,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-02-20,Cliente 061,Pyme,México,Guadalajara,Luis Rivera,Pagos,Crecimiento,Aliado,Activo,866.73,3,493.5,3,8,29.4,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-21,Cliente 076,Mediana empresa,Chile,Santiago,Sofía Vega,Pagos,Crecimiento,Prospección,Expansión,2261.61,8,1392.33,0,7,0,Preocupación de precio durante la conversación de renovación
+2025-02-22,Cliente 053,Pyme,Chile,Valparaíso,Sofía Vega,Automatización,Crecimiento,Entrada,Expansión,820.39,5,374.21,0,7,12.2,Necesita apoyo de onboarding y documentación más clara
+2025-02-23,Cliente 010,Pyme,Estados Unidos,Austin,Daniel Ortiz,Soporte IA,Crecimiento,Prospección,Expansión,1002.13,3,730.92,0,8,0.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-02-24,Cliente 080,Pyme,Chile,Valparaíso,Luis Rivera,Analítica,Crecimiento,Entrada,Activo,1037.76,3,498.01,0,7,0.5,Bajo uso durante el último mes
+2025-02-25,Cliente 019,Pyme,México,Monterrey,Luis Rivera,Automatización,Inicio,Referido,Activo,751.57,4,380.82,1,6,20.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-02-26,Cliente 060,Enterprise,Chile,Santiago,Ana Torres,Soporte IA,Enterprise,Prospección,Activo,22032.93,16,15958.66,2,7,21.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-27,Cliente 090,Pyme,Estados Unidos,Nueva York,Sofía Vega,Sincronización CRM,Inicio,Entrada,Activo,687.75,5,473.35,2,3,59.5,Varios tickets sobre confiabilidad de la integración
+2025-02-28,Cliente 029,Mediana empresa,Chile,Santiago,Ana Torres,Analítica,Inicio,Referido,Expansión,1423.63,8,1064.12,1,6,15.0,Varios tickets sobre confiabilidad de la integración
+2025-03-01,Cliente 068,Pyme,Colombia,Bogotá,Carlos Méndez,Soporte IA,Enterprise,Prospección,Perdido,2000.85,5,1084.34,3,9,7.8,Bajo uso durante el último mes
+2025-03-02,Cliente 072,Pyme,Perú,Lima,Carlos Méndez,Pagos,Inicio,Prospección,Activo,488.54,2,349.83,0,8,0,Varios tickets sobre confiabilidad de la integración
+2025-03-03,Cliente 079,Pyme,Colombia,Medellín,Carlos Méndez,Soporte IA,Inicio,Entrada,Activo,681.34,3,360.82,0,7,11.7,Bajo uso durante el último mes
+2025-03-04,Cliente 076,Mediana empresa,Colombia,Medellín,Ana Torres,Soporte IA,Crecimiento,Prospección,Activo,1991.37,7,1517.82,2,7,25.7,Varios tickets sobre confiabilidad de la integración
+2025-03-05,Cliente 008,Pyme,Colombia,Bogotá,Sofía Vega,Analítica,Crecimiento,Entrada,En riesgo,696.07,3,375.92,3,6,33.1,Preocupación de precio durante la conversación de renovación
+2025-03-06,Cliente 076,Pyme,Perú,Arequipa,Luis Rivera,Pagos,Inicio,Aliado,Expansión,650.6,1,299.0,0,8,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-03-07,Cliente 023,Pyme,Colombia,Medellín,Daniel Ortiz,Analítica,Escala,Referido,Activo,1212.81,3,667.45,0,6,6.4,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-03-08,Cliente 059,Mediana empresa,Colombia,Medellín,Sofía Vega,Soporte IA,Escala,Referido,Activo,4372.67,4,2343.58,2,7,24.5,Varios tickets sobre confiabilidad de la integración
+2025-03-09,Cliente 049,Enterprise,México,Guadalajara,Daniel Ortiz,Pagos,Crecimiento,Entrada,Activo,8024.23,18,5250.49,2,3,48.3,Preocupación de precio durante la conversación de renovación
+2025-03-10,Cliente 053,Pyme,México,Guadalajara,Ana Torres,Sincronización CRM,Crecimiento,Prospección,Expansión,767.19,6,340.76,3,6,30.9,Necesita apoyo de onboarding y documentación más clara
+2025-03-11,Cliente 072,Pyme,Estados Unidos,Nueva York,Carlos Méndez,Analítica,Crecimiento,Referido,Activo,983.44,3,668.33,2,6,27.0,Preocupación de precio durante la conversación de renovación
+2025-03-12,Cliente 020,Mediana empresa,Colombia,Bogotá,Carlos Méndez,Pagos,Crecimiento,Prospección,Activo,1940.08,10,1495.49,0,8,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-03-13,Cliente 004,Pyme,Chile,Valparaíso,Carlos Méndez,Sincronización CRM,Inicio,Aliado,Expansión,483.79,1,272.99,2,8,4.6,Bajo uso durante el último mes
+2025-03-14,Cliente 059,Pyme,Colombia,Cali,Carlos Méndez,Pagos,Crecimiento,Entrada,Activo,500.23,4,224.79,0,5,22.1,Preocupación de precio durante la conversación de renovación
+2025-03-15,Cliente 066,Pyme,México,Guadalajara,Daniel Ortiz,Soporte IA,Crecimiento,Prospección,Expansión,602.64,4,338.86,0,7,0.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-03-16,Cliente 038,Pyme,Colombia,Cali,Sofía Vega,Automatización,Inicio,Aliado,En riesgo,753.13,5,335.86,0,7,0,Bajo uso durante el último mes
+2025-03-17,Cliente 074,Pyme,Chile,Valparaíso,Ana Torres,Soporte IA,Inicio,Prospección,Expansión,530.88,3,404.07,0,8,0,Bajo uso durante el último mes
+2025-03-18,Cliente 076,Pyme,Colombia,Medellín,Carlos Méndez,Automatización,Inicio,Aliado,Expansión,463.92,2,227.23,0,7,13.2,Alta adopción por parte del equipo de operaciones
+2025-03-19,Cliente 019,Pyme,Colombia,Bogotá,Ana Torres,Automatización,Enterprise,Referido,Expansión,2481.61,2,1545.91,0,6,19.6,Varios tickets sobre confiabilidad de la integración
+2025-03-20,Cliente 081,Pyme,México,Guadalajara,Sofía Vega,Sincronización CRM,Escala,Entrada,Perdido,1045.61,5,453.31,1,6,23.9,Alta adopción por parte del equipo de operaciones
+2025-03-21,Cliente 079,Mediana empresa,México,Monterrey,Daniel Ortiz,Analítica,Crecimiento,Aliado,En riesgo,2271.79,10,1343.14,1,7,5.1,Alta adopción por parte del equipo de operaciones
+2025-03-22,Cliente 065,Mediana empresa,Colombia,Cali,Sofía Vega,Soporte IA,Crecimiento,Aliado,Activo,2469.57,10,1725.75,0,7,6.6,Bajo uso durante el último mes
+2025-03-23,Cliente 037,Pyme,Perú,Lima,Carlos Méndez,Analítica,Crecimiento,Aliado,Expansión,1007.44,3,535.64,0,5,12.6,Bajo uso durante el último mes
+2025-03-24,Cliente 083,Mediana empresa,Perú,Lima,Sofía Vega,Pagos,Crecimiento,Prospección,Activo,1964.68,10,1367.06,0,10,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-03-25,Cliente 085,Pyme,Chile,Santiago,Daniel Ortiz,Soporte IA,Inicio,Aliado,Activo,700.74,12,488.83,1,6,19.8,Preocupación de precio durante la conversación de renovación
+2025-03-26,Cliente 057,Mediana empresa,Chile,Valparaíso,Luis Rivera,Pagos,Inicio,Referido,Activo,1826.53,10,1142.22,3,3,68.6,Bajo uso durante el último mes
+2025-03-27,Cliente 021,Mediana empresa,Perú,Lima,Carlos Méndez,Analítica,Crecimiento,Prospección,Expansión,2422.42,10,1106.88,2,3,49.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-03-28,Cliente 058,Enterprise,Colombia,Medellín,Ana Torres,Automatización,Escala,Prospección,Activo,19432.22,16,10777.62,2,6,24.5,Alta adopción por parte del equipo de operaciones
+2025-03-29,Cliente 084,Pyme,Colombia,Bogotá,Carlos Méndez,Soporte IA,Escala,Aliado,Expansión,1278.1,4,752.65,0,4,18.4,Bajo uso durante el último mes
+2025-03-30,Cliente 015,Mediana empresa,Colombia,Bogotá,Ana Torres,Automatización,Crecimiento,Referido,Activo,2398.46,10,1470.21,0,5,24.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-03-31,Cliente 079,Pyme,México,CDMX,Ana Torres,Pagos,Enterprise,Entrada,En riesgo,2284.24,2,1406.79,1,4,27.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-01,Cliente 082,Pyme,Colombia,Cali,Ana Torres,Sincronización CRM,Escala,Prospección,Activo,1018.73,3,641.28,0,7,1.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-02,Cliente 090,Pyme,Colombia,Bogotá,Ana Torres,Soporte IA,Inicio,Aliado,Perdido,485.97,2,239.0,4,7,40.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-03,Cliente 033,Pyme,Chile,Valparaíso,Carlos Méndez,Analítica,Escala,Prospección,Activo,1005.42,4,567.06,0,3,32.8,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-04,Cliente 048,Enterprise,México,CDMX,Sofía Vega,Analítica,Crecimiento,Aliado,Activo,9582.66,19,5132.82,4,7,36.1,Bajo uso durante el último mes
+2025-04-05,Cliente 022,Mediana empresa,Colombia,Bogotá,Carlos Méndez,Pagos,Enterprise,Prospección,Activo,4626.57,9,3061.06,0,5,25.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-06,Cliente 019,Enterprise,Chile,Valparaíso,Ana Torres,Automatización,Inicio,Prospección,Activo,6923.73,19,5274.55,2,6,29.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-07,Cliente 010,Mediana empresa,México,Guadalajara,Carlos Méndez,Sincronización CRM,Inicio,Entrada,Activo,977.42,9,731.97,2,8,18.1,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-08,Cliente 026,Pyme,Perú,Arequipa,Luis Rivera,Soporte IA,Enterprise,Prospección,Activo,2206.37,6,1490.26,0,6,8.0,Necesita apoyo de onboarding y documentación más clara
+2025-04-09,Cliente 047,Pyme,Colombia,Bogotá,Luis Rivera,Automatización,Escala,Entrada,Activo,1362.3,1,1054.26,0,9,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-10,Cliente 068,Pyme,México,Monterrey,Ana Torres,Automatización,Enterprise,Entrada,Expansión,2498.41,7,1661.04,0,10,0,Necesita apoyo de onboarding y documentación más clara
+2025-04-11,Cliente 056,Pyme,Perú,Lima,Daniel Ortiz,Automatización,Inicio,Aliado,Expansión,618.28,3,469.1,0,10,0,Necesita apoyo de onboarding y documentación más clara
+2025-04-12,Cliente 081,Pyme,México,Monterrey,Luis Rivera,Pagos,Enterprise,Aliado,Activo,1317.75,1,849.7,2,5,46.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-13,Cliente 011,Pyme,Chile,Valparaíso,Luis Rivera,Pagos,Crecimiento,Entrada,Activo,729.82,2,557.87,0,4,31.7,Alta adopción por parte del equipo de operaciones
+2025-04-14,Cliente 089,Pyme,México,Guadalajara,Sofía Vega,Automatización,Crecimiento,Aliado,Activo,972.64,4,660.04,0,3,45.5,Varios tickets sobre confiabilidad de la integración
+2025-04-15,Cliente 066,Mediana empresa,Colombia,Medellín,Ana Torres,Sincronización CRM,Crecimiento,Aliado,Activo,1856.2,8,1190.82,2,6,23.2,Varios tickets sobre confiabilidad de la integración
+2025-04-16,Cliente 025,Mediana empresa,México,Monterrey,Sofía Vega,Soporte IA,Escala,Referido,Expansión,2775.36,13,2110.06,0,7,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-17,Cliente 077,Enterprise,Chile,Valparaíso,Carlos Méndez,Pagos,Inicio,Entrada,Activo,4096.27,20,2846.86,0,6,13.4,Alta adopción por parte del equipo de operaciones
+2025-04-18,Cliente 050,Pyme,Chile,Valparaíso,Daniel Ortiz,Pagos,Inicio,Entrada,Activo,456.49,5,322.36,0,10,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-19,Cliente 006,Pyme,Chile,Valparaíso,Daniel Ortiz,Soporte IA,Inicio,Aliado,En riesgo,528.61,3,410.53,0,7,0.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-20,Cliente 061,Mediana empresa,Colombia,Cali,Ana Torres,Soporte IA,Crecimiento,Entrada,Activo,3008.36,7,1551.08,0,3,37.6,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-21,Cliente 075,Pyme,México,Monterrey,Daniel Ortiz,Soporte IA,Inicio,Aliado,Activo,420.78,4,179.6,0,6,15.8,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-22,Cliente 008,Mediana empresa,México,Monterrey,Carlos Méndez,Soporte IA,Crecimiento,Prospección,En riesgo,2922.53,10,1711.08,0,6,15.5,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-23,Cliente 079,Pyme,Estados Unidos,Austin,Daniel Ortiz,Sincronización CRM,Inicio,Prospección,Expansión,599.87,3,357.55,0,5,28.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-24,Cliente 016,Mediana empresa,México,Guadalajara,Carlos Méndez,Automatización,Inicio,Prospección,Activo,2385.07,9,1069.59,2,5,42.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-25,Cliente 072,Mediana empresa,Colombia,Cali,Daniel Ortiz,Automatización,Inicio,Aliado,Activo,2200.87,10,1492.74,1,9,0,Bajo uso durante el último mes
+2025-04-26,Cliente 084,Enterprise,Perú,Arequipa,Luis Rivera,Sincronización CRM,Inicio,Entrada,En riesgo,6384.95,20,2887.31,0,6,16.5,Necesita apoyo de onboarding y documentación más clara
+2025-04-27,Cliente 054,Enterprise,Colombia,Bogotá,Sofía Vega,Soporte IA,Inicio,Prospección,Activo,7655.32,20,3510.95,2,8,23.8,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-28,Cliente 018,Enterprise,México,CDMX,Ana Torres,Sincronización CRM,Inicio,Referido,Expansión,6115.47,17,4150.54,3,6,34.9,Preocupación de precio durante la conversación de renovación
+2025-04-29,Cliente 023,Mediana empresa,Chile,Valparaíso,Sofía Vega,Pagos,Inicio,Referido,Expansión,1737.11,9,931.95,1,7,7.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-30,Cliente 075,Mediana empresa,Colombia,Cali,Carlos Méndez,Automatización,Inicio,Entrada,Expansión,1823.38,10,870.66,0,3,43.8,Alta adopción por parte del equipo de operaciones
+2025-05-01,Cliente 082,Enterprise,Colombia,Cali,Luis Rivera,Automatización,Enterprise,Referido,Expansión,17885.83,17,10189.64,0,5,20.8,Preocupación de precio durante la conversación de renovación
+2025-05-02,Cliente 088,Mediana empresa,Perú,Lima,Daniel Ortiz,Soporte IA,Crecimiento,Prospección,Activo,1867.64,8,1163.73,2,7,22.1,Necesita apoyo de onboarding y documentación más clara
+2025-05-03,Cliente 022,Pyme,México,CDMX,Luis Rivera,Pagos,Crecimiento,Referido,Expansión,882.95,1,516.04,1,8,11.1,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-04,Cliente 028,Mediana empresa,Colombia,Medellín,Ana Torres,Pagos,Enterprise,Entrada,Expansión,6995.22,9,4126.8,0,8,0,Bajo uso durante el último mes
+2025-05-05,Cliente 048,Enterprise,México,Guadalajara,Sofía Vega,Analítica,Escala,Aliado,Activo,14864.8,17,9118.26,2,3,48.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-06,Cliente 039,Pyme,Chile,Valparaíso,Daniel Ortiz,Soporte IA,Escala,Aliado,Activo,1208.2,3,574.91,2,10,3.3,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-07,Cliente 031,Pyme,Colombia,Bogotá,Sofía Vega,Pagos,Escala,Entrada,Perdido,950.16,6,583.7,1,7,5.8,Varios tickets sobre confiabilidad de la integración
+2025-05-08,Cliente 074,Mediana empresa,Chile,Valparaíso,Luis Rivera,Sincronización CRM,Escala,Aliado,Activo,3101.48,5,1609.84,0,6,16.7,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-09,Cliente 007,Enterprise,Estados Unidos,Nueva York,Sofía Vega,Pagos,Inicio,Referido,Activo,4918.82,17,3018.45,3,6,46.2,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-10,Cliente 008,Mediana empresa,Estados Unidos,Nueva York,Daniel Ortiz,Automatización,Crecimiento,Prospección,Expansión,2420.67,10,1580.25,3,4,46.8,Preocupación de precio durante la conversación de renovación
+2025-05-11,Cliente 007,Pyme,Chile,Santiago,Ana Torres,Automatización,Escala,Aliado,Activo,1640.12,5,1253.92,0,10,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-12,Cliente 032,Mediana empresa,Chile,Valparaíso,Luis Rivera,Pagos,Inicio,Prospección,Expansión,1398.01,9,855.74,0,8,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-13,Cliente 041,Enterprise,Colombia,Medellín,Ana Torres,Pagos,Escala,Aliado,Activo,7830.74,15,5318.67,1,6,15.6,Varios tickets sobre confiabilidad de la integración
+2025-05-14,Cliente 033,Mediana empresa,México,Monterrey,Sofía Vega,Soporte IA,Inicio,Prospección,Expansión,1540.3,10,1046.35,0,7,4.8,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-15,Cliente 010,Enterprise,Chile,Santiago,Sofía Vega,Automatización,Escala,Aliado,En riesgo,11217.04,18,6552.59,2,9,14.7,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-16,Cliente 001,Mediana empresa,México,CDMX,Daniel Ortiz,Sincronización CRM,Crecimiento,Prospección,Activo,1541.75,10,1098.86,0,4,36.2,Alta adopción por parte del equipo de operaciones
+2025-05-17,Cliente 068,Pyme,Colombia,Cali,Carlos Méndez,Sincronización CRM,Inicio,Referido,Activo,355.22,6,180.29,0,6,18.6,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-18,Cliente 012,Pyme,Colombia,Medellín,Ana Torres,Analítica,Escala,Entrada,Activo,1476.48,2,850.76,1,4,44.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-19,Cliente 030,Pyme,Perú,Arequipa,Carlos Méndez,Analítica,Enterprise,Prospección,Expansión,2329.19,3,1757.04,0,5,21.7,Bajo uso durante el último mes
+2025-05-20,Cliente 010,Pyme,México,Monterrey,Sofía Vega,Pagos,Inicio,Aliado,Activo,644.24,8,430.45,3,7,27.9,Preocupación de precio durante la conversación de renovación
+2025-05-21,Cliente 010,Pyme,Chile,Valparaíso,Carlos Méndez,Analítica,Crecimiento,Referido,Activo,822.22,1,473.16,3,5,38.7,Preocupación de precio durante la conversación de renovación
+2025-05-22,Cliente 010,Pyme,Colombia,Cali,Luis Rivera,Soporte IA,Inicio,Entrada,Activo,467.77,1,355.26,0,8,0,Bajo uso durante el último mes
+2025-05-23,Cliente 014,Pyme,Colombia,Bogotá,Daniel Ortiz,Pagos,Escala,Referido,Activo,715.9,1,487.49,2,1,64.9,Bajo uso durante el último mes
+2025-05-24,Cliente 022,Pyme,Colombia,Medellín,Luis Rivera,Analítica,Inicio,Prospección,Expansión,620.35,1,368.69,2,7,16.9,Preocupación de precio durante la conversación de renovación
+2025-05-25,Cliente 059,Pyme,Colombia,Medellín,Carlos Méndez,Pagos,Crecimiento,Prospección,Expansión,630.62,1,412.66,2,5,40.1,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-26,Cliente 041,Pyme,México,Guadalajara,Carlos Méndez,Soporte IA,Enterprise,Aliado,Activo,1599.84,3,833.37,1,5,37.6,Necesita apoyo de onboarding y documentación más clara
+2025-05-27,Cliente 088,Mediana empresa,Colombia,Cali,Sofía Vega,Automatización,Crecimiento,Prospección,Activo,3928.77,12,2774.56,2,6,26.1,Necesita apoyo de onboarding y documentación más clara
+2025-05-28,Cliente 055,Mediana empresa,Colombia,Cali,Sofía Vega,Pagos,Crecimiento,Referido,Expansión,2358.19,8,1661.72,0,10,0,Preocupación de precio durante la conversación de renovación
+2025-05-29,Cliente 085,Mediana empresa,Colombia,Cali,Ana Torres,Pagos,Enterprise,Referido,Activo,6931.18,7,3175.45,3,7,35.9,Preocupación de precio durante la conversación de renovación
+2025-05-30,Cliente 058,Pyme,México,Monterrey,Daniel Ortiz,Pagos,Inicio,Entrada,Expansión,490.67,4,258.27,1,6,27.6,Varios tickets sobre confiabilidad de la integración
+2025-05-31,Cliente 040,Pyme,Perú,Arequipa,Carlos Méndez,Soporte IA,Inicio,Referido,Activo,489.89,2,226.05,3,7,34.5,Preocupación de precio durante la conversación de renovación
+2025-06-01,Cliente 067,Pyme,Colombia,Cali,Sofía Vega,Soporte IA,Inicio,Referido,En riesgo,725.31,1,353.3,0,5,24.7,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-02,Cliente 076,Pyme,Colombia,Bogotá,Luis Rivera,Sincronización CRM,Escala,Entrada,Activo,1191.86,4,657.53,0,7,7.4,Varios tickets sobre confiabilidad de la integración
+2025-06-03,Cliente 077,Pyme,México,CDMX,Carlos Méndez,Sincronización CRM,Escala,Aliado,Expansión,1197.67,4,807.42,0,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-04,Cliente 015,Pyme,Chile,Valparaíso,Sofía Vega,Pagos,Inicio,Referido,Expansión,528.58,1,396.91,1,8,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-05,Cliente 080,Pyme,Colombia,Bogotá,Sofía Vega,Automatización,Inicio,Referido,En riesgo,1013.55,3,610.11,0,7,2.3,Alta adopción por parte del equipo de operaciones
+2025-06-06,Cliente 073,Pyme,Chile,Valparaíso,Ana Torres,Sincronización CRM,Inicio,Prospección,Expansión,482.03,1,335.36,1,6,13.3,Varios tickets sobre confiabilidad de la integración
+2025-06-07,Cliente 070,Mediana empresa,Colombia,Cali,Sofía Vega,Pagos,Inicio,Referido,Activo,1225.08,8,880.62,1,5,39.0,Varios tickets sobre confiabilidad de la integración
+2025-06-08,Cliente 012,Pyme,Estados Unidos,Miami,Luis Rivera,Pagos,Escala,Referido,Activo,858.66,4,424.61,1,8,0.6,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-09,Cliente 038,Mediana empresa,Estados Unidos,Nueva York,Ana Torres,Automatización,Enterprise,Referido,Activo,9769.91,9,7594.1,1,6,28.3,Varios tickets sobre confiabilidad de la integración
+2025-06-10,Cliente 032,Mediana empresa,Chile,Valparaíso,Luis Rivera,Pagos,Crecimiento,Referido,En riesgo,2032.81,12,1416.46,2,4,49.9,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-11,Cliente 063,Pyme,Colombia,Cali,Ana Torres,Soporte IA,Crecimiento,Prospección,Activo,1217.02,5,859.76,0,10,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-12,Cliente 044,Mediana empresa,Colombia,Medellín,Carlos Méndez,Analítica,Inicio,Referido,En riesgo,1199.06,10,700.67,0,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-13,Cliente 021,Enterprise,Perú,Lima,Carlos Méndez,Sincronización CRM,Inicio,Aliado,Activo,3362.03,17,2169.24,1,4,35.6,Alta adopción por parte del equipo de operaciones
+2025-06-14,Cliente 001,Pyme,Colombia,Cali,Luis Rivera,Pagos,Escala,Entrada,Activo,753.62,3,549.93,1,6,15.6,Alta adopción por parte del equipo de operaciones
+2025-06-15,Cliente 041,Pyme,Colombia,Medellín,Luis Rivera,Automatización,Inicio,Entrada,En riesgo,795.24,1,380.99,0,8,1.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-16,Cliente 028,Pyme,Colombia,Bogotá,Daniel Ortiz,Soporte IA,Crecimiento,Referido,Expansión,776.12,5,349.51,1,4,39.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-06-17,Cliente 085,Enterprise,Colombia,Cali,Daniel Ortiz,Automatización,Escala,Prospección,Activo,15341.78,17,10772.52,2,5,35.7,Alta adopción por parte del equipo de operaciones
+2025-06-18,Cliente 068,Enterprise,Colombia,Medellín,Carlos Méndez,Automatización,Crecimiento,Referido,Expansión,8263.28,16,6309.87,0,7,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-06-19,Cliente 051,Pyme,Chile,Valparaíso,Sofía Vega,Soporte IA,Inicio,Aliado,Activo,579.69,3,308.14,0,7,10.2,Alta adopción por parte del equipo de operaciones
+2025-06-20,Cliente 040,Mediana empresa,Chile,Santiago,Ana Torres,Automatización,Inicio,Referido,Expansión,1825.33,8,1204.33,0,6,2.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-21,Cliente 045,Mediana empresa,Perú,Arequipa,Luis Rivera,Sincronización CRM,Inicio,Prospección,Activo,1843.55,7,852.64,2,5,36.6,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-22,Cliente 074,Mediana empresa,México,Monterrey,Carlos Méndez,Analítica,Crecimiento,Aliado,Activo,2254.36,8,1412.6,1,6,21.2,Preocupación de precio durante la conversación de renovación
+2025-06-23,Cliente 006,Pyme,México,CDMX,Luis Rivera,Analítica,Crecimiento,Referido,Activo,790.22,2,402.52,2,5,44.5,Alta adopción por parte del equipo de operaciones
+2025-06-24,Cliente 065,Mediana empresa,Colombia,Bogotá,Daniel Ortiz,Analítica,Enterprise,Entrada,Activo,7443.49,11,3958.83,0,9,0,Preocupación de precio durante la conversación de renovación
+2025-06-25,Cliente 060,Pyme,Estados Unidos,Miami,Daniel Ortiz,Automatización,Inicio,Referido,Activo,505.86,5,311.08,0,5,10.2,Bajo uso durante el último mes
+2025-06-26,Cliente 040,Pyme,México,CDMX,Sofía Vega,Soporte IA,Enterprise,Aliado,Perdido,2467.26,7,1833.23,2,3,51.4,Alta adopción por parte del equipo de operaciones
+2025-06-27,Cliente 075,Pyme,Colombia,Medellín,Ana Torres,Pagos,Crecimiento,Referido,Activo,909.84,3,424.95,0,10,0,Varios tickets sobre confiabilidad de la integración
+2025-06-28,Cliente 041,Pyme,Colombia,Bogotá,Luis Rivera,Pagos,Inicio,Entrada,Expansión,415.8,2,254.86,1,8,1.2,Necesita apoyo de onboarding y documentación más clara
+2025-06-29,Cliente 088,Pyme,Chile,Santiago,Luis Rivera,Sincronización CRM,Inicio,Aliado,Activo,710.62,3,399.83,2,7,28.4,Bajo uso durante el último mes
+2025-06-30,Cliente 058,Mediana empresa,México,CDMX,Sofía Vega,Analítica,Escala,Aliado,En riesgo,3241.15,12,1620.65,2,7,25.7,Alta adopción por parte del equipo de operaciones
+2025-07-01,Cliente 075,Mediana empresa,Estados Unidos,Miami,Ana Torres,Analítica,Inicio,Referido,En riesgo,2566.92,10,1163.1,2,4,38.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-07-02,Cliente 022,Enterprise,México,Monterrey,Sofía Vega,Soporte IA,Inicio,Referido,Activo,5193.49,18,2704.5,3,6,41.4,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-03,Cliente 064,Pyme,México,CDMX,Ana Torres,Sincronización CRM,Crecimiento,Referido,Expansión,720.3,3,531.92,0,6,18.0,Varios tickets sobre confiabilidad de la integración
+2025-07-04,Cliente 062,Mediana empresa,México,Monterrey,Daniel Ortiz,Sincronización CRM,Crecimiento,Aliado,Activo,1601.12,8,1139.75,0,6,11.4,Preocupación de precio durante la conversación de renovación
+2025-07-05,Cliente 021,Pyme,Chile,Valparaíso,Daniel Ortiz,Analítica,Escala,Aliado,Activo,1393.4,7,1078.16,0,10,0,Varios tickets sobre confiabilidad de la integración
+2025-07-06,Cliente 090,Pyme,México,Monterrey,Carlos Méndez,Pagos,Crecimiento,Aliado,Expansión,814.43,5,501.01,0,7,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-07,Cliente 001,Pyme,México,CDMX,Carlos Méndez,Automatización,Enterprise,Prospección,Activo,1580.03,4,747.63,0,6,4.2,Alta adopción por parte del equipo de operaciones
+2025-07-08,Cliente 048,Mediana empresa,Chile,Santiago,Carlos Méndez,Sincronización CRM,Inicio,Aliado,En riesgo,1650.54,6,982.72,1,5,30.2,Varios tickets sobre confiabilidad de la integración
+2025-07-09,Cliente 029,Mediana empresa,Perú,Arequipa,Carlos Méndez,Sincronización CRM,Inicio,Entrada,Activo,1842.88,11,1403.41,0,10,0,Preocupación de precio durante la conversación de renovación
+2025-07-10,Cliente 082,Mediana empresa,Estados Unidos,Miami,Carlos Méndez,Analítica,Inicio,Prospección,Activo,1378.71,9,930.94,0,4,26.9,Preocupación de precio durante la conversación de renovación
+2025-07-11,Cliente 089,Pyme,Colombia,Bogotá,Ana Torres,Analítica,Crecimiento,Referido,Activo,1366.64,1,1009.18,0,7,4.9,Preocupación de precio durante la conversación de renovación
+2025-07-12,Cliente 021,Pyme,Perú,Lima,Carlos Méndez,Analítica,Inicio,Entrada,Activo,437.49,4,299.03,2,3,45.9,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-13,Cliente 004,Pyme,Chile,Valparaíso,Luis Rivera,Analítica,Inicio,Aliado,Expansión,868.01,2,492.46,0,6,12.8,Alta adopción por parte del equipo de operaciones
+2025-07-14,Cliente 007,Pyme,México,Guadalajara,Luis Rivera,Analítica,Crecimiento,Referido,Perdido,720.72,5,427.33,0,8,0,Alta adopción por parte del equipo de operaciones
+2025-07-15,Cliente 040,Mediana empresa,México,Monterrey,Carlos Méndez,Analítica,Crecimiento,Referido,Activo,2007.95,9,1483.43,0,8,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-16,Cliente 073,Pyme,Chile,Santiago,Ana Torres,Sincronización CRM,Escala,Referido,En riesgo,1635.28,1,1181.8,0,8,0,Preocupación de precio durante la conversación de renovación
+2025-07-17,Cliente 061,Pyme,México,Monterrey,Ana Torres,Pagos,Crecimiento,Aliado,Expansión,643.38,2,445.6,2,10,7.4,Bajo uso durante el último mes
+2025-07-18,Cliente 011,Enterprise,México,Monterrey,Luis Rivera,Pagos,Inicio,Entrada,Expansión,3784.11,15,2756.29,1,3,35.2,Bajo uso durante el último mes
+2025-07-19,Cliente 015,Pyme,Colombia,Cali,Daniel Ortiz,Analítica,Enterprise,Entrada,Expansión,2466.85,3,1806.45,3,3,58.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-20,Cliente 005,Pyme,México,Monterrey,Daniel Ortiz,Soporte IA,Inicio,Prospección,Activo,691.15,6,357.11,1,5,34.9,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-21,Cliente 090,Mediana empresa,Estados Unidos,Miami,Luis Rivera,Sincronización CRM,Enterprise,Referido,Activo,6215.92,10,3328.7,0,4,19.8,Bajo uso durante el último mes
+2025-07-22,Cliente 063,Mediana empresa,Perú,Lima,Daniel Ortiz,Automatización,Inicio,Referido,Activo,1646.81,11,708.82,0,8,2.7,Varios tickets sobre confiabilidad de la integración
+2025-07-23,Cliente 026,Pyme,Perú,Arequipa,Ana Torres,Analítica,Inicio,Referido,Activo,780.43,7,377.67,2,4,43.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-24,Cliente 089,Pyme,Colombia,Bogotá,Luis Rivera,Pagos,Escala,Aliado,Expansión,1338.12,2,691.63,0,7,9.6,Necesita apoyo de onboarding y documentación más clara
+2025-07-25,Cliente 083,Pyme,Perú,Lima,Carlos Méndez,Pagos,Escala,Prospección,Activo,1094.7,4,739.33,0,10,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-26,Cliente 087,Mediana empresa,Chile,Santiago,Ana Torres,Pagos,Enterprise,Prospección,Activo,5758.24,7,3837.23,0,5,15.5,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-27,Cliente 025,Pyme,Chile,Santiago,Daniel Ortiz,Soporte IA,Crecimiento,Aliado,Activo,1010.37,4,662.75,2,6,28.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-07-28,Cliente 075,Mediana empresa,México,CDMX,Carlos Méndez,Automatización,Escala,Referido,Expansión,5026.69,7,3641.09,0,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-29,Cliente 072,Mediana empresa,Colombia,Cali,Carlos Méndez,Analítica,Inicio,Aliado,Activo,1993.29,5,1057.54,1,5,24.2,Alta adopción por parte del equipo de operaciones
+2025-07-30,Cliente 061,Pyme,Chile,Santiago,Sofía Vega,Automatización,Crecimiento,Referido,En riesgo,1171.58,1,555.66,2,8,23.7,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-31,Cliente 019,Pyme,Chile,Santiago,Sofía Vega,Sincronización CRM,Crecimiento,Aliado,Expansión,754.34,3,332.58,0,7,9.5,Alta adopción por parte del equipo de operaciones
+2025-08-01,Cliente 017,Mediana empresa,Chile,Valparaíso,Sofía Vega,Soporte IA,Crecimiento,Entrada,Activo,2967.42,8,2199.22,0,7,0,Preocupación de precio durante la conversación de renovación
+2025-08-02,Cliente 089,Enterprise,Colombia,Bogotá,Sofía Vega,Pagos,Crecimiento,Aliado,Activo,5739.92,15,2505.24,3,5,47.4,Bajo uso durante el último mes
+2025-08-03,Cliente 088,Enterprise,Colombia,Medellín,Carlos Méndez,Automatización,Inicio,Referido,Expansión,4545.15,18,2254.52,6,7,50.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-04,Cliente 049,Enterprise,Colombia,Cali,Daniel Ortiz,Analítica,Crecimiento,Entrada,Activo,9877.14,18,6472.34,4,6,46.3,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-05,Cliente 061,Mediana empresa,Colombia,Cali,Ana Torres,Sincronización CRM,Crecimiento,Entrada,Activo,2883.56,8,1353.48,2,7,26.4,Alta adopción por parte del equipo de operaciones
+2025-08-06,Cliente 014,Pyme,México,Guadalajara,Daniel Ortiz,Automatización,Crecimiento,Referido,Expansión,925.94,3,402.03,0,7,12.7,Alta adopción por parte del equipo de operaciones
+2025-08-07,Cliente 015,Mediana empresa,Chile,Santiago,Ana Torres,Pagos,Inicio,Entrada,En riesgo,2163.97,7,1670.21,0,7,10.3,Varios tickets sobre confiabilidad de la integración
+2025-08-08,Cliente 087,Pyme,Chile,Santiago,Ana Torres,Analítica,Escala,Aliado,Activo,1381.26,4,1024.94,2,6,34.7,Varios tickets sobre confiabilidad de la integración
+2025-08-09,Cliente 024,Pyme,México,Guadalajara,Carlos Méndez,Soporte IA,Escala,Referido,Activo,1408.52,1,648.91,0,7,12.8,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-08-10,Cliente 073,Mediana empresa,Colombia,Medellín,Carlos Méndez,Pagos,Inicio,Aliado,Expansión,1377.64,8,820.69,2,5,29.3,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-11,Cliente 087,Mediana empresa,Chile,Santiago,Carlos Méndez,Pagos,Crecimiento,Entrada,En riesgo,1918.49,8,1264.16,0,6,18.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-12,Cliente 083,Enterprise,México,Guadalajara,Sofía Vega,Automatización,Inicio,Referido,Activo,6891.51,17,3715.37,1,9,0,Alta adopción por parte del equipo de operaciones
+2025-08-13,Cliente 059,Pyme,México,CDMX,Sofía Vega,Soporte IA,Inicio,Referido,Perdido,796.23,6,344.69,1,3,50.8,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-14,Cliente 066,Mediana empresa,Chile,Valparaíso,Carlos Méndez,Sincronización CRM,Escala,Aliado,Activo,3662.8,7,1976.12,1,4,41.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-08-15,Cliente 015,Pyme,Chile,Santiago,Carlos Méndez,Sincronización CRM,Escala,Prospección,Activo,1064.32,3,790.66,1,3,49.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-16,Cliente 079,Pyme,Colombia,Medellín,Luis Rivera,Soporte IA,Escala,Aliado,Activo,1527.4,4,700.76,0,9,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-08-17,Cliente 059,Mediana empresa,Estados Unidos,Miami,Sofía Vega,Analítica,Crecimiento,Entrada,Activo,3132.74,6,2358.24,1,7,16.8,Alta adopción por parte del equipo de operaciones
+2025-08-18,Cliente 050,Mediana empresa,México,Guadalajara,Daniel Ortiz,Soporte IA,Crecimiento,Aliado,Activo,2270.31,4,1741.09,2,6,22.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-19,Cliente 090,Mediana empresa,Colombia,Cali,Daniel Ortiz,Automatización,Inicio,Prospección,Expansión,2401.52,9,1622.81,0,8,0,Varios tickets sobre confiabilidad de la integración
+2025-08-20,Cliente 072,Pyme,México,Monterrey,Sofía Vega,Pagos,Inicio,Referido,Activo,679.94,3,413.53,1,7,16.4,Necesita apoyo de onboarding y documentación más clara
+2025-08-21,Cliente 037,Mediana empresa,Colombia,Bogotá,Carlos Méndez,Automatización,Escala,Entrada,Activo,3725.39,6,2470.64,1,5,31.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-22,Cliente 089,Mediana empresa,Estados Unidos,Austin,Sofía Vega,Sincronización CRM,Enterprise,Entrada,En riesgo,4002.18,8,2043.04,0,5,27.4,Varios tickets sobre confiabilidad de la integración
+2025-08-23,Cliente 076,Mediana empresa,México,Monterrey,Luis Rivera,Sincronización CRM,Crecimiento,Entrada,Activo,1927.5,10,1071.29,2,4,38.6,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-24,Cliente 001,Pyme,Chile,Santiago,Ana Torres,Automatización,Enterprise,Entrada,Activo,3198.18,5,2063.25,1,5,34.8,Alta adopción por parte del equipo de operaciones
+2025-08-25,Cliente 041,Mediana empresa,Estados Unidos,Nueva York,Ana Torres,Pagos,Inicio,Referido,Activo,1297.4,9,699.92,2,5,43.1,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-26,Cliente 015,Mediana empresa,México,Monterrey,Daniel Ortiz,Pagos,Inicio,Entrada,Activo,1686.17,10,903.01,4,3,69.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-27,Cliente 004,Enterprise,Perú,Arequipa,Daniel Ortiz,Pagos,Crecimiento,Entrada,Activo,6219.9,16,2796.74,1,10,0,Preocupación de precio durante la conversación de renovación
+2025-08-28,Cliente 086,Mediana empresa,Colombia,Cali,Sofía Vega,Analítica,Inicio,Referido,Expansión,2300.5,12,1744.49,1,6,20.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-29,Cliente 023,Mediana empresa,México,Monterrey,Luis Rivera,Sincronización CRM,Crecimiento,Referido,Expansión,2578.69,8,1708.09,1,4,39.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-30,Cliente 090,Enterprise,Colombia,Cali,Ana Torres,Sincronización CRM,Escala,Prospección,Activo,13078.26,17,6818.3,3,5,53.4,Necesita apoyo de onboarding y documentación más clara
+2025-08-31,Cliente 069,Pyme,Chile,Valparaíso,Luis Rivera,Sincronización CRM,Escala,Prospección,Expansión,1501.68,8,707.13,1,9,0,Preocupación de precio durante la conversación de renovación
+2025-09-01,Cliente 045,Pyme,Estados Unidos,Nueva York,Luis Rivera,Automatización,Inicio,Prospección,En riesgo,631.81,4,306.61,1,3,52.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-09-02,Cliente 083,Mediana empresa,Colombia,Bogotá,Carlos Méndez,Analítica,Inicio,Referido,Activo,2279.84,7,1150.02,2,6,23.9,Varios tickets sobre confiabilidad de la integración
+2025-09-03,Cliente 079,Mediana empresa,Chile,Santiago,Daniel Ortiz,Pagos,Crecimiento,Prospección,Expansión,2834.81,9,1362.72,0,10,0,Varios tickets sobre confiabilidad de la integración
+2025-09-04,Cliente 018,Mediana empresa,Colombia,Medellín,Sofía Vega,Soporte IA,Crecimiento,Prospección,Activo,2925.68,11,1315.12,2,6,37.8,Alta adopción por parte del equipo de operaciones
+2025-09-05,Cliente 010,Enterprise,Perú,Lima,Daniel Ortiz,Pagos,Crecimiento,Aliado,Expansión,9018.0,21,5578.3,0,5,19.4,Preocupación de precio durante la conversación de renovación
+2025-09-06,Cliente 076,Mediana empresa,Colombia,Medellín,Daniel Ortiz,Pagos,Inicio,Prospección,Expansión,1540.0,6,1093.95,0,6,12.3,Necesita apoyo de onboarding y documentación más clara
+2025-09-07,Cliente 062,Enterprise,Colombia,Medellín,Luis Rivera,Analítica,Inicio,Aliado,Activo,4741.67,17,2344.46,3,5,46.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-09-08,Cliente 006,Enterprise,Colombia,Cali,Daniel Ortiz,Sincronización CRM,Escala,Prospección,Activo,11422.83,16,6354.14,1,3,36.6,Preocupación de precio durante la conversación de renovación
+2025-09-09,Cliente 067,Pyme,Perú,Arequipa,Sofía Vega,Soporte IA,Escala,Entrada,Expansión,1449.3,1,681.21,1,7,15.9,Varios tickets sobre confiabilidad de la integración
+2025-09-10,Cliente 078,Mediana empresa,Colombia,Bogotá,Sofía Vega,Sincronización CRM,Escala,Referido,Expansión,4076.48,6,2662.0,1,5,21.6,El cliente pidió reportes más rápidos y dashboards más claros
+2025-09-11,Cliente 074,Pyme,Colombia,Bogotá,Daniel Ortiz,Soporte IA,Crecimiento,Entrada,Activo,1128.81,4,769.93,2,2,56.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-09-12,Cliente 062,Pyme,Perú,Lima,Daniel Ortiz,Automatización,Crecimiento,Prospección,Activo,855.01,2,542.72,0,8,0,Bajo uso durante el último mes
+2025-09-13,Cliente 020,Mediana empresa,Colombia,Cali,Daniel Ortiz,Analítica,Escala,Entrada,En riesgo,3003.7,9,1974.58,2,5,28.0,Bajo uso durante el último mes
+2025-09-14,Cliente 067,Pyme,Perú,Arequipa,Luis Rivera,Soporte IA,Escala,Referido,Expansión,1241.47,5,895.58,0,5,15.1,Alta adopción por parte del equipo de operaciones
+2025-09-15,Cliente 037,Mediana empresa,México,Guadalajara,Luis Rivera,Analítica,Escala,Entrada,Activo,4370.45,8,2020.98,3,6,42.8,Varios tickets sobre confiabilidad de la integración
+2025-09-16,Cliente 014,Pyme,Chile,Valparaíso,Carlos Méndez,Pagos,Crecimiento,Prospección,Activo,742.41,6,366.25,1,4,30.6,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-09-17,Cliente 033,Enterprise,México,Monterrey,Sofía Vega,Automatización,Escala,Entrada,Activo,18682.03,17,10850.04,1,6,15.3,El cliente pidió reportes más rápidos y dashboards más claros
+2025-09-18,Cliente 021,Pyme,Chile,Santiago,Luis Rivera,Soporte IA,Enterprise,Referido,Expansión,1608.39,3,1028.16,2,6,28.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-09-19,Cliente 077,Pyme,Chile,Santiago,Sofía Vega,Soporte IA,Inicio,Prospección,Expansión,570.05,1,400.3,0,7,6.3,El cliente pidió reportes más rápidos y dashboards más claros
+2025-09-20,Cliente 021,Pyme,Colombia,Medellín,Carlos Méndez,Soporte IA,Crecimiento,Aliado,Activo,850.0,3,384.59,0,6,20.3,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-09-21,Cliente 029,Mediana empresa,Colombia,Medellín,Daniel Ortiz,Analítica,Inicio,Referido,Activo,1950.13,12,1211.24,0,7,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-09-22,Cliente 089,Pyme,Colombia,Medellín,Luis Rivera,Sincronización CRM,Enterprise,Referido,Activo,2082.78,7,1236.15,0,7,9.8,Varios tickets sobre confiabilidad de la integración
+2025-09-23,Cliente 053,Enterprise,México,CDMX,Carlos Méndez,Automatización,Inicio,Referido,Activo,7249.57,19,5187.7,5,7,48.5,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-09-24,Cliente 024,Enterprise,Chile,Santiago,Sofía Vega,Automatización,Inicio,Aliado,En riesgo,9662.18,18,4926.65,3,5,39.1,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-09-25,Cliente 079,Pyme,Perú,Lima,Sofía Vega,Sincronización CRM,Crecimiento,Referido,Expansión,1092.33,3,805.22,0,6,5.7,Bajo uso durante el último mes
+2025-09-26,Cliente 029,Mediana empresa,Colombia,Cali,Sofía Vega,Soporte IA,Enterprise,Entrada,Expansión,6678.2,6,3225.09,2,9,5.2,Preocupación de precio durante la conversación de renovación
+2025-09-27,Cliente 049,Mediana empresa,Colombia,Cali,Carlos Méndez,Automatización,Crecimiento,Aliado,Activo,2475.79,8,1894.15,0,8,0,Varios tickets sobre confiabilidad de la integración
+2025-09-28,Cliente 052,Pyme,Colombia,Bogotá,Daniel Ortiz,Automatización,Escala,Prospección,Activo,1830.65,1,898.09,0,8,0,Necesita apoyo de onboarding y documentación más clara
+2025-09-29,Cliente 081,Pyme,Chile,Valparaíso,Carlos Méndez,Sincronización CRM,Crecimiento,Entrada,Expansión,685.43,1,458.28,3,7,30.5,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-09-30,Cliente 043,Pyme,Colombia,Cali,Carlos Méndez,Sincronización CRM,Inicio,Entrada,Activo,462.01,2,289.99,0,6,21.6,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-10-01,Cliente 058,Enterprise,México,Guadalajara,Sofía Vega,Automatización,Escala,Prospección,Activo,15651.57,15,10023.76,0,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-10-02,Cliente 035,Mediana empresa,México,Guadalajara,Carlos Méndez,Pagos,Crecimiento,Referido,Activo,1950.47,9,1330.22,1,4,41.0,Necesita apoyo de onboarding y documentación más clara
+2025-10-03,Cliente 051,Pyme,Colombia,Medellín,Daniel Ortiz,Analítica,Inicio,Referido,En riesgo,684.09,1,532.61,2,8,5.7,Preocupación de precio durante la conversación de renovación
+2025-10-04,Cliente 032,Mediana empresa,México,CDMX,Luis Rivera,Pagos,Escala,Entrada,En riesgo,2390.91,6,1748.06,3,2,79.7,Necesita apoyo de onboarding y documentación más clara
+2025-10-05,Cliente 090,Mediana empresa,México,Guadalajara,Daniel Ortiz,Soporte IA,Crecimiento,Prospección,Expansión,3397.78,9,2016.22,1,7,9.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-10-06,Cliente 001,Mediana empresa,Chile,Santiago,Carlos Méndez,Sincronización CRM,Crecimiento,Entrada,Expansión,2418.37,5,1276.56,1,7,14.9,Preocupación de precio durante la conversación de renovación
+2025-10-07,Cliente 053,Enterprise,México,CDMX,Luis Rivera,Soporte IA,Escala,Aliado,En riesgo,11299.07,14,6463.14,2,9,14.2,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-10-08,Cliente 084,Mediana empresa,Perú,Arequipa,Luis Rivera,Analítica,Inicio,Prospección,Perdido,1559.2,6,1048.05,1,5,22.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-10-09,Cliente 024,Enterprise,Colombia,Bogotá,Sofía Vega,Analítica,Inicio,Aliado,Activo,4970.18,18,2476.08,0,8,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-10-10,Cliente 043,Pyme,Chile,Santiago,Ana Torres,Sincronización CRM,Escala,Entrada,Expansión,1359.4,5,693.33,3,6,48.5,Bajo uso durante el último mes
+2025-10-11,Cliente 057,Pyme,Estados Unidos,Miami,Sofía Vega,Analítica,Crecimiento,Aliado,Activo,1050.1,4,698.65,0,8,0,Alta adopción por parte del equipo de operaciones
+2025-10-12,Cliente 033,Pyme,Colombia,Medellín,Ana Torres,Automatización,Enterprise,Aliado,Activo,3047.34,3,1582.78,1,9,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-10-13,Cliente 089,Mediana empresa,Colombia,Bogotá,Luis Rivera,Automatización,Crecimiento,Prospección,Expansión,4196.26,11,3268.51,0,6,14.9,Necesita apoyo de onboarding y documentación más clara
+2025-10-14,Cliente 063,Pyme,Estados Unidos,Nueva York,Carlos Méndez,Soporte IA,Escala,Entrada,Expansión,1366.22,3,1015.81,1,5,24.9,Preocupación de precio durante la conversación de renovación
+2025-10-15,Cliente 073,Pyme,Colombia,Cali,Sofía Vega,Sincronización CRM,Escala,Aliado,Activo,938.14,4,446.38,0,8,0,Bajo uso durante el último mes
+2025-10-16,Cliente 024,Enterprise,México,Guadalajara,Daniel Ortiz,Automatización,Inicio,Entrada,Activo,7938.7,16,4832.01,1,4,39.3,Varios tickets sobre confiabilidad de la integración
+2025-10-17,Cliente 015,Pyme,Chile,Santiago,Luis Rivera,Automatización,Escala,Aliado,Activo,1234.38,4,603.59,3,6,36.8,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-10-18,Cliente 007,Pyme,México,CDMX,Ana Torres,Automatización,Crecimiento,Entrada,Activo,1221.46,2,839.94,0,9,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-10-19,Cliente 010,Mediana empresa,Colombia,Bogotá,Daniel Ortiz,Analítica,Inicio,Aliado,Activo,2008.96,6,980.79,0,7,6.5,Bajo uso durante el último mes
+2025-10-20,Cliente 014,Mediana empresa,México,Monterrey,Sofía Vega,Soporte IA,Escala,Aliado,En riesgo,5064.91,6,3326.18,0,5,28.7,Varios tickets sobre confiabilidad de la integración
+2025-10-21,Cliente 048,Pyme,Chile,Valparaíso,Daniel Ortiz,Automatización,Crecimiento,Aliado,Perdido,1006.39,3,622.04,1,5,28.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-10-22,Cliente 005,Enterprise,México,Monterrey,Luis Rivera,Sincronización CRM,Inicio,Aliado,Activo,4598.49,16,3493.04,4,7,40.2,Necesita apoyo de onboarding y documentación más clara
+2025-10-23,Cliente 013,Pyme,Colombia,Bogotá,Carlos Méndez,Sincronización CRM,Escala,Aliado,Expansión,889.25,1,633.13,2,7,30.4,Varios tickets sobre confiabilidad de la integración
+2025-10-24,Cliente 062,Pyme,Perú,Lima,Daniel Ortiz,Sincronización CRM,Inicio,Referido,En riesgo,416.06,7,226.86,1,7,20.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-10-25,Cliente 082,Mediana empresa,México,Guadalajara,Daniel Ortiz,Analítica,Inicio,Aliado,Perdido,1760.57,7,1181.69,2,8,23.9,Alta adopción por parte del equipo de operaciones
+2025-10-26,Cliente 029,Pyme,Perú,Lima,Luis Rivera,Sincronización CRM,Inicio,Entrada,Activo,602.04,3,347.03,2,5,37.6,Bajo uso durante el último mes
+2025-10-27,Cliente 084,Mediana empresa,México,Monterrey,Daniel Ortiz,Automatización,Inicio,Prospección,Activo,2594.46,5,1391.74,1,6,24.4,Varios tickets sobre confiabilidad de la integración
+2025-10-28,Cliente 025,Pyme,México,CDMX,Carlos Méndez,Automatización,Enterprise,Referido,Activo,2435.2,1,1227.48,2,6,34.6,El cliente pidió reportes más rápidos y dashboards más claros
+2025-10-29,Cliente 032,Enterprise,Estados Unidos,Austin,Ana Torres,Sincronización CRM,Escala,Entrada,Activo,11116.07,16,6554.35,1,9,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-10-30,Cliente 080,Mediana empresa,Colombia,Cali,Ana Torres,Soporte IA,Crecimiento,Entrada,Activo,2635.58,10,1767.81,1,6,29.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-10-31,Cliente 085,Enterprise,Chile,Santiago,Ana Torres,Sincronización CRM,Escala,Referido,En riesgo,10541.28,20,5872.05,2,6,26.3,Alta adopción por parte del equipo de operaciones
+2025-11-01,Cliente 024,Pyme,Estados Unidos,Nueva York,Ana Torres,Analítica,Inicio,Prospección,Perdido,701.32,3,382.11,1,5,23.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-11-02,Cliente 008,Mediana empresa,Perú,Lima,Daniel Ortiz,Sincronización CRM,Inicio,Prospección,Activo,2072.42,11,1360.53,2,7,31.2,Preocupación de precio durante la conversación de renovación
+2025-11-03,Cliente 054,Pyme,Colombia,Medellín,Daniel Ortiz,Sincronización CRM,Crecimiento,Aliado,Activo,671.2,5,475.23,2,7,26.1,Necesita apoyo de onboarding y documentación más clara
+2025-11-04,Cliente 056,Enterprise,Estados Unidos,Miami,Daniel Ortiz,Automatización,Inicio,Entrada,Perdido,5910.37,16,4268.64,2,7,18.4,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-11-05,Cliente 057,Mediana empresa,Perú,Arequipa,Luis Rivera,Automatización,Inicio,Aliado,Expansión,1657.74,11,1057.67,0,5,14.6,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-11-06,Cliente 018,Pyme,México,Monterrey,Carlos Méndez,Automatización,Escala,Referido,En riesgo,1433.4,2,686.55,1,8,14.4,Preocupación de precio durante la conversación de renovación
+2025-11-07,Cliente 086,Enterprise,Chile,Santiago,Luis Rivera,Soporte IA,Escala,Referido,Expansión,14966.73,20,8589.71,0,7,10.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-11-08,Cliente 067,Pyme,México,CDMX,Luis Rivera,Pagos,Crecimiento,Entrada,Activo,838.55,1,508.0,0,6,7.8,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-11-09,Cliente 060,Pyme,Colombia,Bogotá,Daniel Ortiz,Automatización,Crecimiento,Referido,Expansión,826.98,2,521.63,1,8,2.9,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-11-10,Cliente 076,Enterprise,Perú,Arequipa,Ana Torres,Sincronización CRM,Inicio,Aliado,Activo,7045.34,16,3272.39,3,7,28.3,Bajo uso durante el último mes
+2025-11-11,Cliente 066,Mediana empresa,Colombia,Cali,Sofía Vega,Analítica,Escala,Prospección,Activo,4725.46,8,3462.7,0,8,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-11-12,Cliente 037,Mediana empresa,Colombia,Bogotá,Luis Rivera,Analítica,Crecimiento,Prospección,Activo,2092.48,11,1253.7,0,7,6.2,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-11-13,Cliente 059,Pyme,Colombia,Cali,Ana Torres,Automatización,Escala,Prospección,En riesgo,1946.59,1,851.85,0,8,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-11-14,Cliente 043,Enterprise,Colombia,Medellín,Luis Rivera,Automatización,Escala,Aliado,Activo,20268.1,20,13980.14,1,7,18.4,Alta adopción por parte del equipo de operaciones
+2025-11-15,Cliente 055,Enterprise,Colombia,Medellín,Luis Rivera,Analítica,Escala,Prospección,Activo,12527.72,16,6204.46,2,8,23.6,Alta adopción por parte del equipo de operaciones
+2025-11-16,Cliente 062,Mediana empresa,México,Monterrey,Carlos Méndez,Soporte IA,Crecimiento,Prospección,Activo,2154.39,9,1350.91,0,4,30.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-11-17,Cliente 064,Mediana empresa,Perú,Lima,Carlos Méndez,Automatización,Inicio,Entrada,Activo,2020.11,9,999.23,0,6,2.9,Preocupación de precio durante la conversación de renovación
+2025-11-18,Cliente 002,Mediana empresa,Chile,Valparaíso,Ana Torres,Sincronización CRM,Inicio,Prospección,Perdido,2216.05,7,1021.56,0,8,0,Preocupación de precio durante la conversación de renovación
+2025-11-19,Cliente 043,Mediana empresa,Estados Unidos,Austin,Sofía Vega,Analítica,Crecimiento,Referido,Activo,2494.51,5,1852.26,1,3,53.6,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-11-20,Cliente 073,Mediana empresa,Colombia,Cali,Ana Torres,Automatización,Crecimiento,Prospección,Activo,4374.39,9,3235.7,0,10,0,Necesita apoyo de onboarding y documentación más clara
+2025-11-21,Cliente 074,Mediana empresa,Colombia,Bogotá,Carlos Méndez,Sincronización CRM,Escala,Prospección,Activo,2987.24,7,1740.62,1,8,1.0,Preocupación de precio durante la conversación de renovación
+2025-11-22,Cliente 012,Pyme,Colombia,Medellín,Daniel Ortiz,Automatización,Inicio,Referido,En riesgo,879.16,3,534.97,1,6,28.4,Necesita apoyo de onboarding y documentación más clara
+2025-11-23,Cliente 027,Mediana empresa,México,Monterrey,Daniel Ortiz,Analítica,Inicio,Entrada,Activo,2228.49,8,1310.52,0,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-11-24,Cliente 082,Enterprise,Colombia,Bogotá,Carlos Méndez,Sincronización CRM,Crecimiento,Referido,Activo,7929.7,18,4108.82,2,7,31.2,Alta adopción por parte del equipo de operaciones
+2025-11-25,Cliente 027,Mediana empresa,México,Guadalajara,Luis Rivera,Sincronización CRM,Crecimiento,Aliado,Expansión,1834.25,7,1063.34,0,8,0,Bajo uso durante el último mes
+2025-11-26,Cliente 051,Pyme,México,Monterrey,Sofía Vega,Pagos,Crecimiento,Prospección,Expansión,1024.93,5,693.51,0,5,29.5,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-11-27,Cliente 073,Pyme,Perú,Arequipa,Ana Torres,Soporte IA,Inicio,Referido,En riesgo,735.22,5,545.87,0,7,0,Varios tickets sobre confiabilidad de la integración
+2025-11-28,Cliente 059,Pyme,Colombia,Bogotá,Carlos Méndez,Soporte IA,Crecimiento,Aliado,Expansión,749.05,5,408.61,0,6,10.1,Alta adopción por parte del equipo de operaciones
+2025-11-29,Cliente 039,Mediana empresa,México,Guadalajara,Luis Rivera,Pagos,Inicio,Aliado,Expansión,2126.89,7,1516.49,1,4,35.7,Preocupación de precio durante la conversación de renovación
+2025-11-30,Cliente 023,Mediana empresa,Colombia,Cali,Daniel Ortiz,Soporte IA,Inicio,Referido,Activo,1709.37,7,778.03,0,7,2.1,Bajo uso durante el último mes
+2025-12-01,Cliente 042,Pyme,Chile,Santiago,Luis Rivera,Automatización,Escala,Entrada,En riesgo,1938.99,2,1017.86,0,5,14.1,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-12-02,Cliente 056,Mediana empresa,Estados Unidos,Miami,Daniel Ortiz,Analítica,Crecimiento,Referido,Activo,3536.0,7,2570.32,3,7,40.4,Varios tickets sobre confiabilidad de la integración
+2025-12-03,Cliente 015,Enterprise,Perú,Lima,Sofía Vega,Pagos,Crecimiento,Prospección,En riesgo,9373.44,16,4649.58,3,6,40.1,Varios tickets sobre confiabilidad de la integración
+2025-12-04,Cliente 054,Pyme,Estados Unidos,Nueva York,Luis Rivera,Automatización,Inicio,Entrada,Activo,633.88,4,468.16,0,3,28.7,Bajo uso durante el último mes
+2025-12-05,Cliente 059,Enterprise,Chile,Valparaíso,Daniel Ortiz,Automatización,Crecimiento,Referido,Activo,11035.75,16,5373.14,2,4,52.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-12-06,Cliente 053,Enterprise,México,CDMX,Ana Torres,Pagos,Crecimiento,Prospección,Perdido,6552.63,16,3888.02,1,6,25.6,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-12-07,Cliente 060,Pyme,México,Monterrey,Ana Torres,Automatización,Crecimiento,Entrada,Activo,1426.35,1,913.85,0,9,0,Varios tickets sobre confiabilidad de la integración
+2025-12-08,Cliente 054,Pyme,Estados Unidos,Austin,Carlos Méndez,Automatización,Inicio,Prospección,Activo,816.24,2,508.46,2,7,15.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-12-09,Cliente 037,Pyme,Colombia,Bogotá,Carlos Méndez,Sincronización CRM,Inicio,Prospección,Activo,457.14,3,291.37,3,8,26.2,Necesita apoyo de onboarding y documentación más clara
+2025-12-10,Cliente 034,Mediana empresa,Colombia,Bogotá,Daniel Ortiz,Analítica,Crecimiento,Entrada,Activo,3750.58,7,2379.35,2,3,59.1,Bajo uso durante el último mes
+2025-12-11,Cliente 031,Mediana empresa,Chile,Santiago,Luis Rivera,Pagos,Escala,Prospección,En riesgo,2499.2,8,1096.92,3,4,54.5,Preocupación de precio durante la conversación de renovación
+2025-12-12,Cliente 049,Mediana empresa,México,Guadalajara,Luis Rivera,Pagos,Escala,Entrada,Expansión,2996.08,9,2118.32,0,8,0,Varios tickets sobre confiabilidad de la integración
+2025-12-13,Cliente 056,Mediana empresa,Chile,Valparaíso,Carlos Méndez,Sincronización CRM,Inicio,Entrada,Activo,1317.29,7,873.5,0,7,9.4,Necesita apoyo de onboarding y documentación más clara
+2025-12-14,Cliente 041,Mediana empresa,Chile,Santiago,Ana Torres,Soporte IA,Inicio,Entrada,Expansión,2472.66,11,1351.42,0,6,2.7,Preocupación de precio durante la conversación de renovación
+2025-12-15,Cliente 077,Mediana empresa,Chile,Santiago,Ana Torres,Pagos,Inicio,Aliado,Activo,2280.12,8,1340.95,0,9,0,Varios tickets sobre confiabilidad de la integración
+2025-12-16,Cliente 033,Pyme,Colombia,Bogotá,Sofía Vega,Soporte IA,Inicio,Entrada,Activo,623.2,2,444.1,1,7,22.6,Bajo uso durante el último mes
+2025-12-17,Cliente 023,Mediana empresa,Colombia,Cali,Sofía Vega,Automatización,Crecimiento,Entrada,Expansión,4528.31,8,2020.76,0,6,10.9,El cliente pidió reportes más rápidos y dashboards más claros
+2025-12-18,Cliente 005,Mediana empresa,Colombia,Cali,Carlos Méndez,Soporte IA,Crecimiento,Referido,Activo,2529.12,8,1429.99,0,4,19.4,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-12-19,Cliente 016,Mediana empresa,Estados Unidos,Austin,Carlos Méndez,Sincronización CRM,Crecimiento,Entrada,Activo,2044.51,10,1477.82,0,7,0,Preocupación de precio durante la conversación de renovación
+2025-12-20,Cliente 039,Mediana empresa,Perú,Arequipa,Sofía Vega,Analítica,Escala,Referido,Expansión,5272.76,7,2480.2,1,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-12-21,Cliente 064,Mediana empresa,Perú,Arequipa,Ana Torres,Analítica,Inicio,Prospección,En riesgo,2725.93,9,1936.93,1,6,24.6,Necesita apoyo de onboarding y documentación más clara
+2025-12-22,Cliente 075,Pyme,Colombia,Cali,Luis Rivera,Soporte IA,Crecimiento,Referido,Expansión,1243.02,2,798.78,1,9,0,Alta adopción por parte del equipo de operaciones
+2025-12-23,Cliente 059,Mediana empresa,Perú,Lima,Ana Torres,Analítica,Crecimiento,Aliado,Expansión,2433.96,9,1754.7,2,6,22.4,Necesita apoyo de onboarding y documentación más clara
+2025-12-24,Cliente 042,Mediana empresa,Perú,Lima,Daniel Ortiz,Automatización,Inicio,Entrada,Activo,1962.43,6,1359.41,1,8,0,Necesita apoyo de onboarding y documentación más clara
+2025-12-25,Cliente 013,Mediana empresa,Chile,Valparaíso,Luis Rivera,Analítica,Escala,Entrada,Expansión,3028.46,9,1982.53,1,8,11.1,Preocupación de precio durante la conversación de renovación
+2025-12-26,Cliente 019,Mediana empresa,México,Guadalajara,Luis Rivera,Automatización,Crecimiento,Entrada,Activo,3612.78,7,2450.16,0,6,18.5,Preocupación de precio durante la conversación de renovación
+2025-12-27,Cliente 025,Pyme,México,CDMX,Daniel Ortiz,Sincronización CRM,Escala,Aliado,En riesgo,1165.23,3,511.66,0,8,2.9,Necesita apoyo de onboarding y documentación más clara
+2025-12-28,Cliente 086,Enterprise,Colombia,Medellín,Carlos Méndez,Automatización,Crecimiento,Prospección,Expansión,10526.29,18,7793.97,1,7,4.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-12-29,Cliente 063,Pyme,Colombia,Bogotá,Sofía Vega,Pagos,Crecimiento,Referido,En riesgo,708.23,3,496.07,0,7,8.8,Preocupación de precio durante la conversación de renovación
+2025-12-30,Cliente 010,Pyme,México,Guadalajara,Luis Rivera,Automatización,Enterprise,Referido,Activo,2115.4,4,1172.89,0,7,1.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-12-31,Cliente 089,Mediana empresa,Colombia,Bogotá,Sofía Vega,Soporte IA,Crecimiento,Prospección,Activo,2545.98,8,1797.57,1,10,0,Bajo uso durante el último mes
+2026-01-01,Cliente 067,Pyme,Estados Unidos,Nueva York,Sofía Vega,Soporte IA,Inicio,Referido,Expansión,711.6,2,362.06,0,9,0,El cliente pidió reportes más rápidos y dashboards más claros
+2026-01-02,Cliente 054,Enterprise,Colombia,Medellín,Daniel Ortiz,Analítica,Crecimiento,Referido,Expansión,7963.35,19,4641.67,0,7,0,Necesita apoyo de onboarding y documentación más clara
+2026-01-03,Cliente 046,Pyme,Chile,Santiago,Ana Torres,Soporte IA,Crecimiento,Aliado,Expansión,1042.07,6,759.51,1,6,20.1,Bajo uso durante el último mes
+2026-01-04,Cliente 024,Mediana empresa,Colombia,Medellín,Ana Torres,Analítica,Crecimiento,Prospección,Expansión,2878.8,8,1932.54,3,4,49.1,Varios tickets sobre confiabilidad de la integración
+2026-01-05,Cliente 008,Pyme,Estados Unidos,Austin,Ana Torres,Analítica,Crecimiento,Referido,Expansión,1037.32,2,572.19,1,9,0,Varios tickets sobre confiabilidad de la integración
+2026-01-06,Cliente 031,Mediana empresa,Chile,Santiago,Luis Rivera,Sincronización CRM,Crecimiento,Prospección,Activo,2148.71,8,1190.84,1,5,35.6,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-01-07,Cliente 058,Mediana empresa,Perú,Lima,Luis Rivera,Soporte IA,Inicio,Referido,Expansión,2135.24,9,1118.47,1,6,16.5,Preocupación de precio durante la conversación de renovación
+2026-01-08,Cliente 067,Enterprise,Colombia,Medellín,Daniel Ortiz,Automatización,Crecimiento,Referido,Expansión,8761.03,16,3878.17,1,7,21.9,Varios tickets sobre confiabilidad de la integración
+2026-01-09,Cliente 084,Mediana empresa,Colombia,Cali,Daniel Ortiz,Pagos,Crecimiento,Prospección,Activo,2037.92,7,1514.95,0,10,0,El cliente pidió reportes más rápidos y dashboards más claros
+2026-01-10,Cliente 019,Pyme,México,CDMX,Daniel Ortiz,Automatización,Escala,Prospección,Perdido,1098.11,5,818.86,3,6,31.3,Necesita apoyo de onboarding y documentación más clara
+2026-01-11,Cliente 057,Pyme,Colombia,Cali,Ana Torres,Sincronización CRM,Enterprise,Aliado,Activo,1678.47,2,1031.17,1,8,13.4,Necesita apoyo de onboarding y documentación más clara
+2026-01-12,Cliente 059,Enterprise,Colombia,Cali,Daniel Ortiz,Pagos,Inicio,Prospección,En riesgo,4370.96,16,3378.96,5,4,74.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-01-13,Cliente 044,Mediana empresa,Chile,Santiago,Luis Rivera,Pagos,Inicio,Entrada,Expansión,1331.14,8,962.04,0,7,0,Preocupación de precio durante la conversación de renovación
+2026-01-14,Cliente 036,Pyme,Colombia,Medellín,Ana Torres,Pagos,Crecimiento,Referido,Activo,679.31,1,507.47,0,6,19.1,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-01-15,Cliente 045,Pyme,Estados Unidos,Nueva York,Ana Torres,Automatización,Escala,Referido,En riesgo,1791.86,4,1020.68,0,7,8.6,Bajo uso durante el último mes
+2026-01-16,Cliente 018,Mediana empresa,México,CDMX,Luis Rivera,Sincronización CRM,Crecimiento,Prospección,Activo,1571.55,12,710.09,0,4,26.3,Necesita apoyo de onboarding y documentación más clara
+2026-01-17,Cliente 026,Pyme,México,Monterrey,Sofía Vega,Analítica,Escala,Prospección,Activo,1612.46,6,853.65,0,6,2.5,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-01-18,Cliente 016,Mediana empresa,Perú,Arequipa,Luis Rivera,Soporte IA,Enterprise,Aliado,Activo,3956.79,9,3044.45,0,6,11.6,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-01-19,Cliente 089,Mediana empresa,Colombia,Cali,Daniel Ortiz,Analítica,Escala,Aliado,Activo,3724.88,7,1760.41,0,8,0,Varios tickets sobre confiabilidad de la integración
+2026-01-20,Cliente 007,Pyme,México,CDMX,Daniel Ortiz,Automatización,Escala,Aliado,Activo,1587.34,3,851.03,0,5,26.0,Varios tickets sobre confiabilidad de la integración
+2026-01-21,Cliente 013,Mediana empresa,Colombia,Bogotá,Ana Torres,Automatización,Crecimiento,Prospección,Activo,3723.47,12,2116.12,1,6,15.4,Alta adopción por parte del equipo de operaciones
+2026-01-22,Cliente 054,Pyme,Colombia,Bogotá,Ana Torres,Soporte IA,Crecimiento,Prospección,Expansión,720.44,1,438.26,2,7,18.1,Necesita apoyo de onboarding y documentación más clara
+2026-01-23,Cliente 089,Pyme,Colombia,Bogotá,Luis Rivera,Automatización,Enterprise,Referido,Activo,2501.58,3,1756.74,3,7,36.1,Alta adopción por parte del equipo de operaciones
+2026-01-24,Cliente 005,Mediana empresa,México,CDMX,Sofía Vega,Analítica,Enterprise,Entrada,Activo,4514.98,7,3167.95,0,8,4.0,Alta adopción por parte del equipo de operaciones
+2026-01-25,Cliente 019,Enterprise,Estados Unidos,Nueva York,Carlos Méndez,Sincronización CRM,Inicio,Aliado,Expansión,4307.34,17,1915.05,3,3,63.6,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-01-26,Cliente 022,Enterprise,México,Monterrey,Ana Torres,Automatización,Enterprise,Referido,Activo,21520.43,16,16458.59,1,7,10.6,Alta adopción por parte del equipo de operaciones
+2026-01-27,Cliente 041,Pyme,Colombia,Bogotá,Sofía Vega,Sincronización CRM,Escala,Entrada,Expansión,827.83,5,494.82,0,8,0.7,Preocupación de precio durante la conversación de renovación
+2026-01-28,Cliente 071,Pyme,Estados Unidos,Austin,Luis Rivera,Analítica,Enterprise,Referido,Expansión,2527.65,3,1675.07,1,6,21.5,Bajo uso durante el último mes
+2026-01-29,Cliente 052,Mediana empresa,Estados Unidos,Nueva York,Luis Rivera,Analítica,Crecimiento,Aliado,Expansión,2317.32,7,1469.61,1,6,27.8,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-01-30,Cliente 075,Mediana empresa,Chile,Valparaíso,Carlos Méndez,Soporte IA,Crecimiento,Referido,Expansión,2828.23,7,1650.75,1,8,0,El cliente pidió reportes más rápidos y dashboards más claros
+2026-01-31,Cliente 009,Pyme,Colombia,Bogotá,Sofía Vega,Pagos,Escala,Aliado,Activo,930.08,5,599.31,1,4,37.4,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-02-01,Cliente 026,Pyme,México,Monterrey,Carlos Méndez,Pagos,Crecimiento,Entrada,Activo,543.19,6,407.05,1,5,26.5,El cliente pidió reportes más rápidos y dashboards más claros
+2026-02-02,Cliente 023,Mediana empresa,Perú,Arequipa,Luis Rivera,Soporte IA,Crecimiento,Prospección,Expansión,2838.22,10,1690.11,2,8,17.2,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-02-03,Cliente 072,Enterprise,México,Guadalajara,Carlos Méndez,Soporte IA,Crecimiento,Referido,Activo,5258.72,14,2815.38,5,6,63.7,El cliente pidió reportes más rápidos y dashboards más claros
+2026-02-04,Cliente 081,Pyme,Colombia,Medellín,Carlos Méndez,Soporte IA,Crecimiento,Aliado,Activo,434.43,4,283.82,0,5,11.3,El cliente pidió reportes más rápidos y dashboards más claros
+2026-02-05,Cliente 069,Pyme,México,Guadalajara,Daniel Ortiz,Pagos,Enterprise,Prospección,Activo,1084.18,3,578.89,1,5,21.0,Preocupación de precio durante la conversación de renovación
+2026-02-06,Cliente 044,Pyme,Perú,Arequipa,Luis Rivera,Pagos,Inicio,Referido,Activo,402.19,3,260.92,1,6,28.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-02-07,Cliente 007,Pyme,México,CDMX,Daniel Ortiz,Analítica,Escala,Entrada,En riesgo,1302.71,3,796.19,2,5,29.5,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-02-08,Cliente 056,Mediana empresa,Colombia,Medellín,Sofía Vega,Sincronización CRM,Crecimiento,Referido,Activo,2550.5,9,1573.97,2,4,46.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-02-09,Cliente 028,Mediana empresa,Perú,Arequipa,Carlos Méndez,Pagos,Escala,Referido,Expansión,2258.45,8,1111.68,0,6,16.9,Bajo uso durante el último mes
+2026-02-10,Cliente 041,Enterprise,Estados Unidos,Nueva York,Luis Rivera,Soporte IA,Inicio,Prospección,Activo,6198.93,18,3175.84,1,5,21.3,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-02-11,Cliente 060,Pyme,Estados Unidos,Austin,Ana Torres,Automatización,Inicio,Aliado,Expansión,545.91,4,337.51,0,7,8.4,Alta adopción por parte del equipo de operaciones
+2026-02-12,Cliente 041,Mediana empresa,Perú,Arequipa,Carlos Méndez,Analítica,Crecimiento,Aliado,Activo,1313.9,8,821.91,0,7,7.3,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-02-13,Cliente 064,Enterprise,Colombia,Bogotá,Carlos Méndez,Sincronización CRM,Escala,Referido,Activo,7272.46,17,3625.2,0,8,0,El cliente pidió reportes más rápidos y dashboards más claros
+2026-02-14,Cliente 063,Mediana empresa,Chile,Santiago,Carlos Méndez,Pagos,Crecimiento,Aliado,En riesgo,1595.99,9,1175.6,2,6,34.3,El cliente pidió reportes más rápidos y dashboards más claros
+2026-02-15,Cliente 083,Enterprise,México,Monterrey,Ana Torres,Automatización,Inicio,Referido,Activo,6471.01,19,4610.01,1,9,4.2,Bajo uso durante el último mes
+2026-02-16,Cliente 033,Pyme,Estados Unidos,Miami,Carlos Méndez,Automatización,Escala,Aliado,Activo,1087.95,6,704.22,2,4,44.1,Alta adopción por parte del equipo de operaciones
+2026-02-17,Cliente 063,Pyme,México,Guadalajara,Sofía Vega,Analítica,Escala,Prospección,Activo,1364.12,2,972.39,2,6,20.5,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-02-18,Cliente 083,Pyme,México,Monterrey,Carlos Méndez,Sincronización CRM,Crecimiento,Entrada,En riesgo,353.05,1,213.91,3,5,52.3,Bajo uso durante el último mes
+2026-02-19,Cliente 041,Pyme,Perú,Lima,Carlos Méndez,Automatización,Escala,Prospección,Activo,1025.92,4,498.06,2,9,13.7,Preocupación de precio durante la conversación de renovación
+2026-02-20,Cliente 012,Enterprise,Colombia,Cali,Luis Rivera,Analítica,Crecimiento,Referido,Activo,9058.72,14,4291.39,3,6,40.3,Bajo uso durante el último mes
+2026-02-21,Cliente 059,Mediana empresa,México,CDMX,Luis Rivera,Automatización,Enterprise,Prospección,Expansión,5782.28,7,4211.13,1,2,48.7,Bajo uso durante el último mes
+2026-02-22,Cliente 024,Pyme,Colombia,Medellín,Carlos Méndez,Automatización,Crecimiento,Aliado,Activo,555.32,1,370.03,0,7,0,Preocupación de precio durante la conversación de renovación
+2026-02-23,Cliente 050,Mediana empresa,Chile,Valparaíso,Ana Torres,Analítica,Crecimiento,Entrada,Expansión,2575.58,9,2005.93,4,10,18.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-02-24,Cliente 065,Mediana empresa,Colombia,Medellín,Carlos Méndez,Automatización,Enterprise,Entrada,Activo,4187.63,7,2151.21,0,7,11.6,Bajo uso durante el último mes
+2026-02-25,Cliente 019,Pyme,Colombia,Bogotá,Sofía Vega,Sincronización CRM,Escala,Referido,Activo,981.09,5,681.04,0,7,11.9,Necesita apoyo de onboarding y documentación más clara
+2026-02-26,Cliente 072,Enterprise,Chile,Valparaíso,Ana Torres,Automatización,Inicio,Aliado,En riesgo,5901.96,19,3477.96,3,8,15.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-02-27,Cliente 046,Enterprise,México,Guadalajara,Sofía Vega,Analítica,Escala,Aliado,En riesgo,9959.34,21,4830.64,3,7,26.5,Preocupación de precio durante la conversación de renovación
+2026-02-28,Cliente 075,Enterprise,Colombia,Cali,Luis Rivera,Soporte IA,Enterprise,Aliado,Expansión,21536.72,20,14293.64,2,6,33.6,Bajo uso durante el último mes
+2026-03-01,Cliente 048,Mediana empresa,Estados Unidos,Austin,Luis Rivera,Analítica,Inicio,Referido,Activo,1795.58,11,757.9,0,9,0,Necesita apoyo de onboarding y documentación más clara
+2026-03-02,Cliente 028,Enterprise,Perú,Arequipa,Carlos Méndez,Analítica,Escala,Referido,Activo,5590.86,17,2861.73,2,9,4.0,Bajo uso durante el último mes
+2026-03-03,Cliente 052,Pyme,Chile,Santiago,Ana Torres,Sincronización CRM,Crecimiento,Referido,Activo,952.21,7,606.81,0,6,9.3,Bajo uso durante el último mes
+2026-03-04,Cliente 061,Pyme,México,CDMX,Sofía Vega,Sincronización CRM,Crecimiento,Referido,Expansión,866.29,4,392.83,0,6,15.5,Está satisfecho con la automatización pero quiere más campos del CRM
+2026-03-05,Cliente 068,Mediana empresa,México,Guadalajara,Sofía Vega,Soporte IA,Inicio,Referido,Activo,1644.69,12,868.64,0,7,5.4,Alta adopción por parte del equipo de operaciones
+2026-03-06,Cliente 066,Pyme,Colombia,Cali,Daniel Ortiz,Sincronización CRM,Crecimiento,Entrada,En riesgo,847.85,6,361.06,1,5,34.7,El cliente pidió reportes más rápidos y dashboards más claros
+2026-03-07,Cliente 011,Pyme,Chile,Valparaíso,Daniel Ortiz,Soporte IA,Escala,Referido,Activo,1291.95,3,947.88,4,6,52.9,Alta adopción por parte del equipo de operaciones
+2026-03-08,Cliente 056,Mediana empresa,Colombia,Bogotá,Ana Torres,Automatización,Crecimiento,Referido,Activo,3668.56,10,2688.18,2,6,29.7,Varios tickets sobre confiabilidad de la integración
+2026-03-09,Cliente 089,Mediana empresa,Chile,Valparaíso,Carlos Méndez,Analítica,Inicio,Entrada,Activo,897.74,10,437.88,0,9,0,Preocupación de precio durante la conversación de renovación
+2026-03-10,Cliente 012,Pyme,México,Guadalajara,Sofía Vega,Analítica,Inicio,Aliado,Activo,767.69,4,445.49,0,7,3.0,Bajo uso durante el último mes
+2026-03-11,Cliente 007,Pyme,Colombia,Cali,Sofía Vega,Soporte IA,Escala,Prospección,Expansión,946.05,2,644.13,2,10,5.4,El cliente pidió reportes más rápidos y dashboards más claros
+2026-03-12,Cliente 055,Mediana empresa,México,Guadalajara,Sofía Vega,Soporte IA,Inicio,Prospección,Activo,1815.38,7,1047.55,2,9,5.4,Varios tickets sobre confiabilidad de la integración
+2026-03-13,Cliente 078,Enterprise,Chile,Valparaíso,Luis Rivera,Sincronización CRM,Escala,Referido,Expansión,13296.1,19,9100.52,0,8,2.9,Alta adopción por parte del equipo de operaciones
+2026-03-14,Cliente 086,Pyme,Colombia,Bogotá,Daniel Ortiz,Soporte IA,Inicio,Referido,Activo,740.75,1,442.78,1,9,7.0,Necesita apoyo de onboarding y documentación más clara
+2026-03-15,Cliente 023,Mediana empresa,Perú,Lima,Ana Torres,Sincronización CRM,Crecimiento,Aliado,Activo,1863.21,9,1010.82,2,6,37.6,Necesita apoyo de onboarding y documentación más clara
+2026-03-16,Cliente 089,Enterprise,México,CDMX,Ana Torres,Soporte IA,Escala,Entrada,Activo,16909.23,18,11860.05,0,5,12.0,Necesita apoyo de onboarding y documentación más clara
+2026-03-17,Cliente 081,Pyme,Colombia,Medellín,Luis Rivera,Sincronización CRM,Escala,Referido,Activo,1242.0,6,671.25,2,8,12.8,Preocupación de precio durante la conversación de renovación
+2026-03-18,Cliente 061,Pyme,México,CDMX,Carlos Méndez,Sincronización CRM,Escala,Referido,Activo,596.0,6,393.0,2,9,4.4,Bajo uso durante el último mes
+2026-03-19,Cliente 053,Enterprise,Estados Unidos,Nueva York,Carlos Méndez,Analítica,Crecimiento,Entrada,Activo,5897.16,17,3195.02,2,4,44.7,El cliente pidió reportes más rápidos y dashboards más claros
+2026-03-20,Cliente 085,Enterprise,Colombia,Cali,Ana Torres,Pagos,Enterprise,Referido,En riesgo,16007.73,19,10646.96,1,6,25.9,El cliente pidió reportes más rápidos y dashboards más claros
+2026-03-21,Cliente 036,Enterprise,México,CDMX,Sofía Vega,Soporte IA,Crecimiento,Referido,Activo,9864.05,20,5579.32,0,7,0,Necesita apoyo de onboarding y documentación más clara
+2026-03-22,Cliente 067,Enterprise,Colombia,Bogotá,Daniel Ortiz,Pagos,Inicio,Prospección,Activo,5311.84,19,2536.99,4,6,49.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-03-23,Cliente 055,Enterprise,Colombia,Bogotá,Carlos Méndez,Sincronización CRM,Crecimiento,Prospección,Activo,3330.59,18,1936.89,0,7,0.8,Preocupación de precio durante la conversación de renovación
+2026-03-24,Cliente 045,Pyme,Chile,Santiago,Sofía Vega,Pagos,Escala,Entrada,Expansión,977.12,3,615.25,1,5,21.0,Alta adopción por parte del equipo de operaciones
+2026-03-25,Cliente 012,Pyme,Perú,Arequipa,Luis Rivera,Soporte IA,Inicio,Referido,En riesgo,638.71,2,328.89,0,5,18.8,Bajo uso durante el último mes
+2026-03-26,Cliente 021,Pyme,Colombia,Cali,Sofía Vega,Automatización,Enterprise,Entrada,Expansión,2740.14,4,1600.12,1,7,14.2,Bajo uso durante el último mes
+2026-03-27,Cliente 015,Pyme,México,CDMX,Daniel Ortiz,Automatización,Inicio,Prospección,En riesgo,889.75,3,627.13,2,8,5.0,Preocupación de precio durante la conversación de renovación
+2026-03-28,Cliente 024,Mediana empresa,México,CDMX,Daniel Ortiz,Sincronización CRM,Inicio,Entrada,Activo,1404.43,11,879.6,0,5,25.6,Necesita apoyo de onboarding y documentación más clara
+2026-03-29,Cliente 018,Pyme,México,Guadalajara,Sofía Vega,Automatización,Escala,Prospección,Expansión,1160.57,2,649.23,0,8,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2026-03-30,Cliente 083,Pyme,Colombia,Bogotá,Daniel Ortiz,Sincronización CRM,Crecimiento,Entrada,Perdido,792.0,2,356.92,2,6,35.2,Preocupación de precio durante la conversación de renovación
+2026-03-31,Cliente 061,Pyme,Colombia,Cali,Daniel Ortiz,Automatización,Enterprise,Prospección,Activo,2612.54,4,1932.12,3,3,65.1,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-01,Cliente 063,Enterprise,Colombia,Medellín,Luis Rivera,Soporte IA,Inicio,Prospección,Activo,5190.6,19,2350.14,3,6,34.7,Alta adopción por parte del equipo de operaciones
+2025-01-02,Cliente 020,Pyme,México,CDMX,Ana Torres,Pagos,Enterprise,Aliado,En riesgo,1226.5,5,656.44,1,5,26.5,Alta adopción por parte del equipo de operaciones
+2025-01-03,Cliente 007,Pyme,Chile,Santiago,Sofía Vega,Pagos,Escala,Referido,Activo,1351.29,4,698.54,0,9,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-04,Cliente 035,Mediana empresa,México,CDMX,Luis Rivera,Pagos,Crecimiento,Aliado,Perdido,1791.91,8,1162.75,1,8,2.5,Bajo uso durante el último mes
+2025-01-05,Cliente 072,Pyme,Colombia,Medellín,Daniel Ortiz,Sincronización CRM,Crecimiento,Aliado,Activo,488.11,9,369.04,0,7,10.8,Preocupación de precio durante la conversación de renovación
+2025-01-06,Cliente 075,Enterprise,Colombia,Bogotá,Daniel Ortiz,Pagos,Inicio,Entrada,Perdido,4156.08,18,2578.15,2,6,32.2,Varios tickets sobre confiabilidad de la integración
+2025-01-07,Cliente 088,Enterprise,Chile,Valparaíso,Carlos Méndez,Automatización,Crecimiento,Prospección,Expansión,7521.56,20,4404.08,1,6,24.8,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-08,Cliente 078,Pyme,Estados Unidos,Nueva York,Luis Rivera,Soporte IA,Crecimiento,Referido,Expansión,979.74,1,640.43,0,7,10.6,Varios tickets sobre confiabilidad de la integración
+2025-01-09,Cliente 049,Mediana empresa,Colombia,Bogotá,Ana Torres,Analítica,Crecimiento,Aliado,Activo,2728.7,9,1363.66,2,6,38.4,Alta adopción por parte del equipo de operaciones
+2025-01-10,Cliente 079,Mediana empresa,Perú,Lima,Luis Rivera,Soporte IA,Enterprise,Entrada,En riesgo,4822.33,11,2388.36,0,8,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-01-11,Cliente 022,Mediana empresa,Chile,Santiago,Ana Torres,Pagos,Inicio,Entrada,Activo,1199.11,12,906.63,2,3,58.6,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-12,Cliente 089,Mediana empresa,México,Monterrey,Daniel Ortiz,Soporte IA,Inicio,Referido,Expansión,1790.9,9,1357.42,0,2,39.5,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-01-13,Cliente 064,Pyme,Chile,Santiago,Ana Torres,Sincronización CRM,Enterprise,Referido,Perdido,1614.97,6,906.11,0,10,0,Bajo uso durante el último mes
+2025-01-14,Cliente 010,Enterprise,Colombia,Medellín,Carlos Méndez,Analítica,Crecimiento,Entrada,Activo,5255.53,17,3715.66,2,9,0.9,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-15,Cliente 043,Pyme,Colombia,Bogotá,Daniel Ortiz,Pagos,Crecimiento,Entrada,Activo,721.12,2,453.16,1,7,3.7,Alta adopción por parte del equipo de operaciones
+2025-01-16,Cliente 017,Pyme,Perú,Lima,Carlos Méndez,Pagos,Crecimiento,Entrada,En riesgo,464.18,4,336.98,1,5,27.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-17,Cliente 059,Pyme,Perú,Lima,Carlos Méndez,Analítica,Crecimiento,Prospección,En riesgo,818.59,5,375.64,3,6,40.9,Necesita apoyo de onboarding y documentación más clara
+2025-01-18,Cliente 082,Pyme,Colombia,Medellín,Daniel Ortiz,Soporte IA,Inicio,Aliado,En riesgo,666.82,5,384.69,1,9,0,Necesita apoyo de onboarding y documentación más clara
+2025-01-19,Cliente 061,Pyme,Colombia,Medellín,Ana Torres,Pagos,Crecimiento,Aliado,Activo,556.68,3,335.43,2,3,52.4,Preocupación de precio durante la conversación de renovación
+2025-01-20,Cliente 082,Enterprise,Perú,Arequipa,Luis Rivera,Soporte IA,Escala,Referido,Activo,12252.5,16,9394.03,3,4,48.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-21,Cliente 064,Pyme,Colombia,Bogotá,Luis Rivera,Soporte IA,Crecimiento,Aliado,Activo,833.5,2,580.62,2,3,51.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-01-22,Cliente 047,Pyme,Colombia,Cali,Ana Torres,Automatización,Inicio,Aliado,Expansión,817.49,5,630.38,0,7,0,Preocupación de precio durante la conversación de renovación
+2025-01-23,Cliente 023,Pyme,Colombia,Medellín,Ana Torres,Analítica,Escala,Aliado,Activo,1283.35,5,902.8,3,9,11.1,Necesita apoyo de onboarding y documentación más clara
+2025-01-24,Cliente 068,Enterprise,Estados Unidos,Austin,Ana Torres,Analítica,Inicio,Aliado,Activo,7576.71,18,4203.04,3,2,65.9,Preocupación de precio durante la conversación de renovación
+2025-01-25,Cliente 069,Pyme,Colombia,Bogotá,Ana Torres,Sincronización CRM,Escala,Referido,Activo,948.79,1,426.3,0,7,0,Varios tickets sobre confiabilidad de la integración
+2025-01-26,Cliente 064,Pyme,Colombia,Cali,Carlos Méndez,Pagos,Escala,Referido,Activo,867.9,1,611.54,0,6,19.9,Preocupación de precio durante la conversación de renovación
+2025-01-27,Cliente 040,Pyme,Colombia,Bogotá,Carlos Méndez,Sincronización CRM,Crecimiento,Aliado,Activo,747.4,2,393.29,0,7,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-01-28,Cliente 060,Pyme,Colombia,Medellín,Carlos Méndez,Sincronización CRM,Crecimiento,Aliado,Activo,623.96,3,464.56,1,6,21.9,Preocupación de precio durante la conversación de renovación
+2025-01-29,Cliente 013,Pyme,Colombia,Cali,Luis Rivera,Sincronización CRM,Inicio,Prospección,Activo,431.75,6,297.16,1,3,38.8,Necesita apoyo de onboarding y documentación más clara
+2025-01-30,Cliente 070,Enterprise,Colombia,Medellín,Carlos Méndez,Sincronización CRM,Escala,Referido,En riesgo,11287.07,19,4788.89,0,4,37.0,Preocupación de precio durante la conversación de renovación
+2025-01-31,Cliente 030,Mediana empresa,Colombia,Bogotá,Daniel Ortiz,Pagos,Escala,Referido,Expansión,3192.24,4,1870.99,1,5,22.8,Bajo uso durante el último mes
+2025-02-01,Cliente 027,Pyme,Perú,Lima,Carlos Méndez,Automatización,Crecimiento,Aliado,Expansión,781.64,3,513.68,0,6,10.5,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-02,Cliente 042,Mediana empresa,México,CDMX,Luis Rivera,Automatización,Enterprise,Prospección,Activo,6929.07,10,4903.65,2,5,35.8,Bajo uso durante el último mes
+2025-02-03,Cliente 009,Mediana empresa,Colombia,Bogotá,Carlos Méndez,Pagos,Enterprise,Prospección,Activo,3095.52,11,1335.84,2,5,31.7,Bajo uso durante el último mes
+2025-02-04,Cliente 037,Pyme,Colombia,Cali,Ana Torres,Soporte IA,Inicio,Entrada,Activo,522.53,1,381.18,0,7,0,Alta adopción por parte del equipo de operaciones
+2025-02-05,Cliente 050,Enterprise,Perú,Lima,Luis Rivera,Sincronización CRM,Crecimiento,Referido,Perdido,5616.79,16,2769.47,1,6,15.0,Bajo uso durante el último mes
+2025-02-06,Cliente 078,Mediana empresa,México,Monterrey,Sofía Vega,Soporte IA,Crecimiento,Entrada,Expansión,3040.38,6,1592.09,2,5,42.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-07,Cliente 051,Mediana empresa,Perú,Lima,Sofía Vega,Automatización,Inicio,Referido,En riesgo,2110.29,10,1318.3,0,3,30.8,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-08,Cliente 081,Mediana empresa,Chile,Santiago,Luis Rivera,Soporte IA,Crecimiento,Entrada,Activo,3269.32,11,1463.19,2,8,10.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-02-09,Cliente 060,Pyme,Chile,Valparaíso,Sofía Vega,Sincronización CRM,Escala,Aliado,Activo,1060.35,4,795.44,1,5,28.7,Preocupación de precio durante la conversación de renovación
+2025-02-10,Cliente 057,Pyme,Perú,Lima,Luis Rivera,Analítica,Crecimiento,Aliado,Expansión,781.14,6,478.43,0,7,9.3,Varios tickets sobre confiabilidad de la integración
+2025-02-11,Cliente 023,Pyme,Colombia,Cali,Daniel Ortiz,Automatización,Crecimiento,Entrada,Expansión,1166.99,5,791.11,0,8,0,Bajo uso durante el último mes
+2025-02-12,Cliente 026,Enterprise,Colombia,Bogotá,Luis Rivera,Analítica,Inicio,Entrada,En riesgo,7722.1,16,4180.45,2,9,0.4,Necesita apoyo de onboarding y documentación más clara
+2025-02-13,Cliente 022,Pyme,México,Guadalajara,Carlos Méndez,Pagos,Crecimiento,Aliado,Expansión,791.79,2,398.8,2,7,12.3,Preocupación de precio durante la conversación de renovación
+2025-02-14,Cliente 059,Pyme,Chile,Valparaíso,Daniel Ortiz,Sincronización CRM,Inicio,Aliado,Expansión,470.93,5,327.92,0,7,8.3,Necesita apoyo de onboarding y documentación más clara
+2025-02-15,Cliente 033,Enterprise,México,Monterrey,Sofía Vega,Automatización,Inicio,Prospección,Expansión,9149.36,17,3900.86,1,8,5.2,El cliente pidió reportes más rápidos y dashboards más claros
+2025-02-16,Cliente 030,Pyme,Chile,Santiago,Carlos Méndez,Automatización,Escala,Aliado,Expansión,1367.79,2,603.98,0,8,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-02-17,Cliente 043,Pyme,Colombia,Bogotá,Daniel Ortiz,Soporte IA,Crecimiento,Prospección,Perdido,950.54,4,516.51,3,6,47.4,Preocupación de precio durante la conversación de renovación
+2025-02-18,Cliente 078,Enterprise,México,CDMX,Sofía Vega,Analítica,Inicio,Referido,Activo,4621.22,18,2261.11,1,6,15.1,Preocupación de precio durante la conversación de renovación
+2025-02-19,Cliente 031,Pyme,México,Guadalajara,Carlos Méndez,Automatización,Escala,Aliado,Activo,1214.33,2,762.01,0,8,3.2,Varios tickets sobre confiabilidad de la integración
+2025-02-20,Cliente 051,Pyme,México,Guadalajara,Daniel Ortiz,Pagos,Escala,Aliado,Expansión,1168.12,3,824.32,2,6,37.1,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-21,Cliente 077,Mediana empresa,México,CDMX,Carlos Méndez,Soporte IA,Crecimiento,Referido,Activo,1915.9,6,1034.52,0,7,12.3,Varios tickets sobre confiabilidad de la integración
+2025-02-22,Cliente 063,Pyme,México,Guadalajara,Carlos Méndez,Soporte IA,Crecimiento,Entrada,Activo,713.88,2,309.81,2,5,39.3,Bajo uso durante el último mes
+2025-02-23,Cliente 033,Mediana empresa,Chile,Valparaíso,Daniel Ortiz,Soporte IA,Crecimiento,Prospección,Expansión,2698.37,6,1847.95,0,7,10.3,Necesita apoyo de onboarding y documentación más clara
+2025-02-24,Cliente 034,Mediana empresa,Estados Unidos,Miami,Carlos Méndez,Automatización,Crecimiento,Aliado,Activo,1816.46,9,1267.07,0,4,26.0,Alta adopción por parte del equipo de operaciones
+2025-02-25,Cliente 067,Enterprise,Perú,Lima,Sofía Vega,Sincronización CRM,Escala,Referido,Expansión,11373.06,17,8561.13,0,7,5.5,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-02-26,Cliente 027,Enterprise,México,Guadalajara,Ana Torres,Automatización,Escala,Entrada,Expansión,11370.0,17,7942.49,0,8,0,Necesita apoyo de onboarding y documentación más clara
+2025-02-27,Cliente 018,Pyme,Colombia,Bogotá,Sofía Vega,Pagos,Escala,Aliado,Expansión,877.76,3,429.29,0,10,0,Necesita apoyo de onboarding y documentación más clara
+2025-02-28,Cliente 011,Pyme,Colombia,Medellín,Ana Torres,Sincronización CRM,Inicio,Aliado,Activo,561.61,3,371.9,1,7,18.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-03-01,Cliente 013,Pyme,Perú,Arequipa,Daniel Ortiz,Pagos,Enterprise,Prospección,En riesgo,1978.25,2,1136.71,1,4,47.0,Varios tickets sobre confiabilidad de la integración
+2025-03-02,Cliente 086,Pyme,México,Guadalajara,Carlos Méndez,Analítica,Inicio,Referido,Activo,635.09,7,469.76,2,8,21.4,Preocupación de precio durante la conversación de renovación
+2025-03-03,Cliente 048,Pyme,Chile,Valparaíso,Daniel Ortiz,Soporte IA,Crecimiento,Entrada,Activo,1087.04,7,463.06,0,7,10.2,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-03-04,Cliente 052,Mediana empresa,Perú,Arequipa,Sofía Vega,Soporte IA,Enterprise,Entrada,Activo,6972.3,9,3665.97,1,7,13.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-03-05,Cliente 017,Pyme,Colombia,Cali,Daniel Ortiz,Soporte IA,Inicio,Referido,Activo,745.05,1,378.19,1,9,1.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-03-06,Cliente 021,Enterprise,Colombia,Medellín,Carlos Méndez,Automatización,Escala,Referido,Activo,15774.95,22,10433.81,0,3,38.7,Varios tickets sobre confiabilidad de la integración
+2025-03-07,Cliente 029,Enterprise,Chile,Santiago,Carlos Méndez,Soporte IA,Enterprise,Referido,Activo,18140.33,19,10472.53,0,7,0,Preocupación de precio durante la conversación de renovación
+2025-03-08,Cliente 015,Mediana empresa,Colombia,Medellín,Sofía Vega,Pagos,Escala,Prospección,Activo,2333.33,10,1429.9,3,2,67.4,Necesita apoyo de onboarding y documentación más clara
+2025-03-09,Cliente 067,Mediana empresa,México,CDMX,Sofía Vega,Analítica,Crecimiento,Referido,Expansión,2493.91,9,1243.98,0,6,7.7,El cliente pidió reportes más rápidos y dashboards más claros
+2025-03-10,Cliente 077,Pyme,México,Monterrey,Ana Torres,Sincronización CRM,Enterprise,Referido,Expansión,2031.57,2,1011.02,0,10,0,Preocupación de precio durante la conversación de renovación
+2025-03-11,Cliente 029,Mediana empresa,Colombia,Bogotá,Sofía Vega,Soporte IA,Inicio,Aliado,Activo,2441.61,7,1621.34,0,10,0,Preocupación de precio durante la conversación de renovación
+2025-03-12,Cliente 090,Enterprise,México,CDMX,Carlos Méndez,Pagos,Escala,Entrada,Expansión,10557.24,17,7130.9,1,7,5.8,Necesita apoyo de onboarding y documentación más clara
+2025-03-13,Cliente 027,Pyme,Chile,Santiago,Carlos Méndez,Pagos,Inicio,Aliado,Expansión,408.03,6,196.08,0,8,0,Varios tickets sobre confiabilidad de la integración
+2025-03-14,Cliente 076,Pyme,Colombia,Cali,Sofía Vega,Automatización,Inicio,Aliado,Expansión,705.11,4,372.98,0,6,16.9,Alta adopción por parte del equipo de operaciones
+2025-03-15,Cliente 060,Enterprise,Chile,Valparaíso,Sofía Vega,Sincronización CRM,Inicio,Entrada,Activo,3953.9,15,2386.22,2,9,7.5,Necesita apoyo de onboarding y documentación más clara
+2025-03-16,Cliente 050,Pyme,Chile,Valparaíso,Carlos Méndez,Pagos,Inicio,Prospección,Activo,322.96,4,241.31,1,5,35.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-03-17,Cliente 009,Pyme,México,Monterrey,Ana Torres,Automatización,Enterprise,Entrada,Expansión,2039.17,2,1263.67,0,7,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-03-18,Cliente 005,Pyme,Colombia,Medellín,Carlos Méndez,Pagos,Inicio,Entrada,Activo,373.19,3,162.94,3,5,42.9,Necesita apoyo de onboarding y documentación más clara
+2025-03-19,Cliente 074,Pyme,Colombia,Medellín,Daniel Ortiz,Pagos,Crecimiento,Entrada,Activo,760.36,4,358.13,1,7,5.7,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-03-20,Cliente 017,Mediana empresa,México,Monterrey,Carlos Méndez,Sincronización CRM,Crecimiento,Aliado,Expansión,1833.01,7,824.8,1,8,8.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-03-21,Cliente 082,Mediana empresa,Colombia,Medellín,Daniel Ortiz,Pagos,Crecimiento,Referido,Activo,2420.22,7,1346.66,3,7,26.4,Bajo uso durante el último mes
+2025-03-22,Cliente 009,Pyme,Colombia,Medellín,Carlos Méndez,Automatización,Escala,Aliado,Expansión,1113.95,3,507.14,2,6,39.0,Alta adopción por parte del equipo de operaciones
+2025-03-23,Cliente 023,Mediana empresa,Perú,Arequipa,Ana Torres,Pagos,Crecimiento,Prospección,Expansión,2382.27,5,1146.99,0,9,0,Bajo uso durante el último mes
+2025-03-24,Cliente 062,Mediana empresa,Colombia,Cali,Daniel Ortiz,Automatización,Crecimiento,Aliado,Expansión,2656.96,8,1819.36,3,7,40.5,Preocupación de precio durante la conversación de renovación
+2025-03-25,Cliente 087,Mediana empresa,Chile,Santiago,Sofía Vega,Sincronización CRM,Escala,Prospección,En riesgo,2898.86,4,2137.33,2,7,29.2,Bajo uso durante el último mes
+2025-03-26,Cliente 041,Enterprise,Chile,Santiago,Luis Rivera,Analítica,Inicio,Entrada,En riesgo,4488.31,16,2346.97,4,4,54.2,Necesita apoyo de onboarding y documentación más clara
+2025-03-27,Cliente 062,Pyme,Chile,Santiago,Sofía Vega,Analítica,Crecimiento,Entrada,En riesgo,1088.98,3,553.12,0,7,10.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-03-28,Cliente 078,Pyme,Colombia,Cali,Luis Rivera,Automatización,Inicio,Aliado,Activo,717.16,1,547.12,0,8,0,Preocupación de precio durante la conversación de renovación
+2025-03-29,Cliente 070,Enterprise,Perú,Arequipa,Carlos Méndez,Soporte IA,Inicio,Aliado,En riesgo,3536.87,16,2660.79,1,10,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-03-30,Cliente 008,Pyme,México,Guadalajara,Carlos Méndez,Sincronización CRM,Inicio,Prospección,Activo,576.43,1,280.73,0,8,0,Necesita apoyo de onboarding y documentación más clara
+2025-03-31,Cliente 053,Pyme,México,CDMX,Carlos Méndez,Automatización,Crecimiento,Prospección,Activo,790.62,2,563.04,1,8,11.8,Bajo uso durante el último mes
+2025-04-01,Cliente 001,Pyme,Perú,Lima,Ana Torres,Automatización,Inicio,Aliado,Activo,741.69,5,510.14,1,6,15.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-02,Cliente 016,Pyme,México,Monterrey,Luis Rivera,Sincronización CRM,Escala,Referido,Activo,1104.84,7,618.69,0,8,0,Preocupación de precio durante la conversación de renovación
+2025-04-03,Cliente 007,Mediana empresa,Colombia,Cali,Ana Torres,Soporte IA,Crecimiento,Prospección,Activo,2814.46,9,1953.02,1,8,5.2,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-04,Cliente 090,Pyme,Perú,Lima,Sofía Vega,Analítica,Escala,Aliado,Expansión,1133.55,5,536.78,0,8,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-05,Cliente 079,Pyme,Perú,Arequipa,Sofía Vega,Pagos,Inicio,Aliado,Activo,446.06,5,255.77,2,7,13.0,Varios tickets sobre confiabilidad de la integración
+2025-04-06,Cliente 054,Pyme,Perú,Lima,Ana Torres,Analítica,Inicio,Prospección,Expansión,580.07,1,264.67,1,8,2.3,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-07,Cliente 088,Mediana empresa,Perú,Arequipa,Carlos Méndez,Sincronización CRM,Escala,Prospección,Expansión,2387.86,13,1240.11,0,7,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-08,Cliente 076,Enterprise,Perú,Lima,Luis Rivera,Soporte IA,Enterprise,Entrada,Activo,24261.46,16,14331.52,1,7,6.1,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-09,Cliente 072,Enterprise,Perú,Arequipa,Ana Torres,Soporte IA,Inicio,Referido,Perdido,6538.94,15,4988.43,2,5,33.5,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-10,Cliente 006,Enterprise,Colombia,Cali,Luis Rivera,Soporte IA,Crecimiento,Entrada,Activo,6700.44,18,4694.15,0,6,5.7,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-11,Cliente 066,Pyme,Chile,Valparaíso,Carlos Méndez,Automatización,Inicio,Prospección,Activo,657.81,4,316.8,2,7,12.8,Necesita apoyo de onboarding y documentación más clara
+2025-04-12,Cliente 035,Enterprise,Colombia,Bogotá,Luis Rivera,Pagos,Inicio,Prospección,En riesgo,5244.42,19,3989.5,1,8,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-13,Cliente 081,Mediana empresa,Perú,Lima,Carlos Méndez,Automatización,Inicio,Entrada,Expansión,1905.92,7,1472.05,1,3,37.1,Bajo uso durante el último mes
+2025-04-14,Cliente 084,Pyme,Chile,Santiago,Sofía Vega,Automatización,Inicio,Aliado,Expansión,803.27,5,382.38,0,7,1.4,Necesita apoyo de onboarding y documentación más clara
+2025-04-15,Cliente 059,Pyme,Perú,Lima,Daniel Ortiz,Soporte IA,Enterprise,Aliado,Expansión,2095.87,7,896.15,1,8,2.9,Alta adopción por parte del equipo de operaciones
+2025-04-16,Cliente 055,Pyme,Estados Unidos,Austin,Ana Torres,Pagos,Inicio,Entrada,Expansión,593.63,3,425.97,1,7,3.9,Necesita apoyo de onboarding y documentación más clara
+2025-04-17,Cliente 081,Mediana empresa,Perú,Lima,Ana Torres,Pagos,Escala,Prospección,En riesgo,4095.39,6,1845.33,2,9,13.8,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-18,Cliente 020,Pyme,México,Guadalajara,Daniel Ortiz,Analítica,Inicio,Entrada,Expansión,466.12,3,336.13,2,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-04-19,Cliente 029,Enterprise,Chile,Santiago,Sofía Vega,Automatización,Enterprise,Aliado,En riesgo,17898.86,21,13676.62,0,9,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-20,Cliente 078,Pyme,México,Guadalajara,Daniel Ortiz,Automatización,Escala,Aliado,Activo,1777.69,2,930.3,0,8,0,Alta adopción por parte del equipo de operaciones
+2025-04-21,Cliente 001,Enterprise,Estados Unidos,Nueva York,Luis Rivera,Sincronización CRM,Inicio,Referido,Perdido,5798.91,16,4075.45,1,7,14.6,Alta adopción por parte del equipo de operaciones
+2025-04-22,Cliente 042,Enterprise,Colombia,Medellín,Carlos Méndez,Sincronización CRM,Crecimiento,Referido,Activo,7244.0,14,3912.1,3,7,25.9,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-04-23,Cliente 069,Mediana empresa,México,CDMX,Sofía Vega,Analítica,Crecimiento,Referido,Activo,2904.05,6,2031.6,1,5,20.7,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-24,Cliente 047,Mediana empresa,Estados Unidos,Miami,Ana Torres,Sincronización CRM,Crecimiento,Aliado,Activo,2156.84,11,1660.45,3,7,37.6,Necesita apoyo de onboarding y documentación más clara
+2025-04-25,Cliente 016,Enterprise,Chile,Valparaíso,Ana Torres,Soporte IA,Crecimiento,Entrada,Activo,10192.09,17,4551.35,3,3,53.6,Alta adopción por parte del equipo de operaciones
+2025-04-26,Cliente 032,Pyme,México,Guadalajara,Luis Rivera,Automatización,Crecimiento,Aliado,Activo,1196.9,3,680.02,0,5,23.9,Necesita apoyo de onboarding y documentación más clara
+2025-04-27,Cliente 008,Enterprise,Colombia,Bogotá,Daniel Ortiz,Automatización,Inicio,Referido,Activo,7352.71,20,5406.83,0,6,20.4,Bajo uso durante el último mes
+2025-04-28,Cliente 021,Pyme,Colombia,Medellín,Luis Rivera,Automatización,Crecimiento,Entrada,Activo,858.75,5,533.58,3,8,22.4,Bajo uso durante el último mes
+2025-04-29,Cliente 049,Pyme,Perú,Arequipa,Luis Rivera,Sincronización CRM,Inicio,Entrada,Activo,489.86,1,343.08,0,8,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-04-30,Cliente 040,Pyme,Colombia,Bogotá,Luis Rivera,Sincronización CRM,Inicio,Entrada,Activo,556.06,4,296.52,0,7,1.1,Preocupación de precio durante la conversación de renovación
+2025-05-01,Cliente 041,Mediana empresa,Chile,Santiago,Ana Torres,Sincronización CRM,Crecimiento,Entrada,En riesgo,2510.27,8,1754.73,3,6,38.5,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-02,Cliente 038,Pyme,Chile,Santiago,Ana Torres,Automatización,Escala,Aliado,Activo,1936.0,6,1172.96,4,5,64.6,Necesita apoyo de onboarding y documentación más clara
+2025-05-03,Cliente 044,Pyme,Chile,Valparaíso,Ana Torres,Soporte IA,Inicio,Entrada,Expansión,879.48,1,548.87,1,7,3.3,Alta adopción por parte del equipo de operaciones
+2025-05-04,Cliente 064,Pyme,Colombia,Medellín,Luis Rivera,Analítica,Inicio,Prospección,Activo,593.18,6,347.52,2,10,3.3,Alta adopción por parte del equipo de operaciones
+2025-05-05,Cliente 073,Pyme,Colombia,Medellín,Sofía Vega,Soporte IA,Escala,Aliado,Activo,1314.86,3,794.82,0,6,3.7,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-06,Cliente 080,Enterprise,Colombia,Bogotá,Daniel Ortiz,Analítica,Inicio,Entrada,Activo,5205.52,19,2323.08,3,4,46.9,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-07,Cliente 014,Pyme,Chile,Valparaíso,Sofía Vega,Automatización,Crecimiento,Entrada,Expansión,990.91,5,771.64,0,7,3.5,Necesita apoyo de onboarding y documentación más clara
+2025-05-08,Cliente 061,Pyme,Colombia,Cali,Ana Torres,Pagos,Escala,Entrada,Expansión,1482.96,2,875.58,2,10,7.1,Necesita apoyo de onboarding y documentación más clara
+2025-05-09,Cliente 011,Pyme,Colombia,Bogotá,Carlos Méndez,Soporte IA,Escala,Aliado,Activo,1255.83,5,644.74,1,6,29.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-05-10,Cliente 022,Pyme,Estados Unidos,Austin,Sofía Vega,Pagos,Escala,Aliado,Activo,1450.21,1,906.84,2,7,29.9,Necesita apoyo de onboarding y documentación más clara
+2025-05-11,Cliente 042,Mediana empresa,Perú,Arequipa,Ana Torres,Automatización,Enterprise,Aliado,Expansión,7648.92,6,4083.81,1,4,32.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-12,Cliente 017,Mediana empresa,Chile,Santiago,Ana Torres,Automatización,Escala,Aliado,Activo,4617.25,7,2566.82,0,4,37.4,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-13,Cliente 048,Mediana empresa,Colombia,Medellín,Daniel Ortiz,Analítica,Escala,Referido,Activo,3576.97,13,1955.25,1,5,38.5,Necesita apoyo de onboarding y documentación más clara
+2025-05-14,Cliente 059,Pyme,Colombia,Cali,Luis Rivera,Pagos,Crecimiento,Prospección,Perdido,899.58,3,469.55,0,4,35.1,Alta adopción por parte del equipo de operaciones
+2025-05-15,Cliente 012,Mediana empresa,México,Guadalajara,Ana Torres,Soporte IA,Escala,Entrada,Activo,4476.29,5,2691.19,1,4,44.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-16,Cliente 071,Pyme,Colombia,Medellín,Ana Torres,Sincronización CRM,Enterprise,Referido,Activo,1835.1,5,1260.37,0,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-05-17,Cliente 040,Mediana empresa,Perú,Arequipa,Luis Rivera,Analítica,Enterprise,Referido,Expansión,4412.77,9,1895.06,1,3,45.4,Varios tickets sobre confiabilidad de la integración
+2025-05-18,Cliente 043,Pyme,México,Guadalajara,Luis Rivera,Pagos,Enterprise,Aliado,Expansión,1797.6,3,1358.08,1,3,42.8,Bajo uso durante el último mes
+2025-05-19,Cliente 041,Pyme,México,CDMX,Luis Rivera,Pagos,Inicio,Referido,Expansión,625.14,6,403.74,0,9,0,Bajo uso durante el último mes
+2025-05-20,Cliente 002,Mediana empresa,México,CDMX,Daniel Ortiz,Pagos,Enterprise,Entrada,Expansión,4919.51,12,3807.84,1,4,30.7,Preocupación de precio durante la conversación de renovación
+2025-05-21,Cliente 039,Pyme,Perú,Arequipa,Carlos Méndez,Analítica,Inicio,Aliado,Expansión,620.42,1,403.16,0,6,11.2,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-05-22,Cliente 034,Enterprise,Colombia,Medellín,Carlos Méndez,Automatización,Crecimiento,Referido,Expansión,10487.77,16,6767.19,3,6,46.8,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-05-23,Cliente 021,Pyme,Colombia,Bogotá,Daniel Ortiz,Pagos,Escala,Entrada,Activo,1322.43,6,1028.51,0,7,4.9,Alta adopción por parte del equipo de operaciones
+2025-05-24,Cliente 025,Mediana empresa,México,Monterrey,Daniel Ortiz,Automatización,Inicio,Prospección,Activo,1571.69,9,784.45,2,6,25.4,Alta adopción por parte del equipo de operaciones
+2025-05-25,Cliente 045,Mediana empresa,Chile,Valparaíso,Sofía Vega,Soporte IA,Crecimiento,Referido,Expansión,3502.52,4,1786.4,1,10,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-05-26,Cliente 022,Mediana empresa,Estados Unidos,Austin,Sofía Vega,Soporte IA,Crecimiento,Prospección,Activo,3320.4,7,1907.74,0,5,22.7,Necesita apoyo de onboarding y documentación más clara
+2025-05-27,Cliente 005,Enterprise,Colombia,Medellín,Carlos Méndez,Pagos,Escala,Prospección,Activo,8399.34,17,3874.4,2,4,39.7,Preocupación de precio durante la conversación de renovación
+2025-05-28,Cliente 085,Pyme,Colombia,Medellín,Ana Torres,Analítica,Inicio,Entrada,Activo,811.45,4,434.74,2,6,25.7,Preocupación de precio durante la conversación de renovación
+2025-05-29,Cliente 014,Mediana empresa,Chile,Santiago,Daniel Ortiz,Soporte IA,Escala,Referido,Perdido,3213.5,9,1720.01,1,10,0,Alta adopción por parte del equipo de operaciones
+2025-05-30,Cliente 058,Pyme,Colombia,Medellín,Luis Rivera,Pagos,Inicio,Entrada,En riesgo,561.81,7,420.34,0,6,10.1,El cliente pidió reportes más rápidos y dashboards más claros
+2025-05-31,Cliente 044,Mediana empresa,Colombia,Bogotá,Sofía Vega,Sincronización CRM,Inicio,Prospección,Expansión,1578.52,12,979.19,0,9,0,Alta adopción por parte del equipo de operaciones
+2025-06-01,Cliente 048,Enterprise,Colombia,Bogotá,Ana Torres,Analítica,Inicio,Prospección,Activo,8474.72,17,3827.91,1,6,27.3,El cliente pidió reportes más rápidos y dashboards más claros
+2025-06-02,Cliente 089,Enterprise,Colombia,Bogotá,Ana Torres,Analítica,Enterprise,Entrada,En riesgo,19255.78,14,12856.16,2,5,42.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-03,Cliente 016,Pyme,Perú,Arequipa,Sofía Vega,Analítica,Crecimiento,Aliado,Expansión,1055.8,1,565.79,0,7,0,Preocupación de precio durante la conversación de renovación
+2025-06-04,Cliente 085,Mediana empresa,Perú,Lima,Ana Torres,Soporte IA,Inicio,Entrada,En riesgo,2249.7,7,1324.03,0,8,0,Varios tickets sobre confiabilidad de la integración
+2025-06-05,Cliente 040,Mediana empresa,Chile,Santiago,Luis Rivera,Automatización,Enterprise,Referido,Activo,9142.68,10,6407.26,0,7,0,Alta adopción por parte del equipo de operaciones
+2025-06-06,Cliente 019,Pyme,Colombia,Bogotá,Luis Rivera,Analítica,Enterprise,Aliado,Activo,1842.52,5,1089.75,0,7,0,Preocupación de precio durante la conversación de renovación
+2025-06-07,Cliente 020,Pyme,México,Guadalajara,Ana Torres,Soporte IA,Inicio,Entrada,Activo,503.29,1,246.52,3,6,34.5,Bajo uso durante el último mes
+2025-06-08,Cliente 014,Mediana empresa,Chile,Santiago,Luis Rivera,Analítica,Inicio,Entrada,Expansión,2024.48,10,1024.3,0,7,11.7,Bajo uso durante el último mes
+2025-06-09,Cliente 013,Pyme,Perú,Arequipa,Sofía Vega,Automatización,Inicio,Aliado,Activo,714.55,3,488.89,2,8,18.0,Preocupación de precio durante la conversación de renovación
+2025-06-10,Cliente 022,Pyme,Colombia,Bogotá,Carlos Méndez,Soporte IA,Inicio,Entrada,Activo,616.92,5,354.14,4,6,55.6,El cliente pidió reportes más rápidos y dashboards más claros
+2025-06-11,Cliente 077,Pyme,México,CDMX,Sofía Vega,Automatización,Crecimiento,Entrada,Activo,1355.9,1,977.24,0,6,4.9,Varios tickets sobre confiabilidad de la integración
+2025-06-12,Cliente 058,Pyme,Colombia,Cali,Carlos Méndez,Soporte IA,Inicio,Referido,En riesgo,392.18,3,214.5,0,3,41.5,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-13,Cliente 015,Pyme,México,Monterrey,Ana Torres,Automatización,Enterprise,Aliado,Expansión,2918.12,5,1482.32,2,6,27.2,Preocupación de precio durante la conversación de renovación
+2025-06-14,Cliente 049,Mediana empresa,Estados Unidos,Nueva York,Daniel Ortiz,Soporte IA,Enterprise,Aliado,Perdido,4953.84,3,3291.65,2,5,36.3,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-15,Cliente 025,Pyme,México,Guadalajara,Daniel Ortiz,Analítica,Crecimiento,Referido,Expansión,951.73,4,437.48,0,10,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-16,Cliente 080,Mediana empresa,Colombia,Medellín,Carlos Méndez,Analítica,Escala,Entrada,Activo,3421.25,9,1704.59,1,6,20.8,El cliente pidió reportes más rápidos y dashboards más claros
+2025-06-17,Cliente 007,Pyme,Colombia,Medellín,Daniel Ortiz,Pagos,Inicio,Entrada,En riesgo,569.54,6,327.79,2,7,12.6,Bajo uso durante el último mes
+2025-06-18,Cliente 055,Pyme,Estados Unidos,Austin,Carlos Méndez,Pagos,Inicio,Referido,Activo,513.3,3,275.18,0,6,6.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-19,Cliente 040,Pyme,México,Monterrey,Sofía Vega,Pagos,Inicio,Referido,Activo,416.93,1,250.73,0,6,9.1,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-20,Cliente 004,Enterprise,Colombia,Medellín,Ana Torres,Automatización,Crecimiento,Prospección,Expansión,13189.42,16,8295.04,0,9,0,Bajo uso durante el último mes
+2025-06-21,Cliente 017,Pyme,Colombia,Cali,Sofía Vega,Analítica,Inicio,Prospección,Activo,843.16,2,383.69,0,6,8.6,El cliente pidió reportes más rápidos y dashboards más claros
+2025-06-22,Cliente 090,Pyme,Colombia,Cali,Sofía Vega,Automatización,Inicio,Aliado,Expansión,691.87,6,368.02,1,7,12.7,El cliente pidió reportes más rápidos y dashboards más claros
+2025-06-23,Cliente 020,Mediana empresa,Colombia,Bogotá,Luis Rivera,Automatización,Inicio,Entrada,En riesgo,2622.46,8,1216.43,1,2,59.4,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-24,Cliente 079,Mediana empresa,Perú,Lima,Sofía Vega,Automatización,Crecimiento,Aliado,Activo,2582.6,12,1776.97,1,9,1.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-25,Cliente 086,Pyme,México,Guadalajara,Carlos Méndez,Soporte IA,Crecimiento,Entrada,Activo,786.77,4,410.72,0,8,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-06-26,Cliente 006,Enterprise,Colombia,Bogotá,Sofía Vega,Soporte IA,Inicio,Aliado,Expansión,5845.89,19,4256.41,0,7,8.1,Necesita apoyo de onboarding y documentación más clara
+2025-06-27,Cliente 046,Mediana empresa,México,Guadalajara,Luis Rivera,Sincronización CRM,Escala,Prospección,Expansión,4192.27,12,2490.83,2,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-06-28,Cliente 017,Mediana empresa,México,Monterrey,Carlos Méndez,Pagos,Crecimiento,Referido,Activo,1425.87,8,614.02,0,6,15.3,Varios tickets sobre confiabilidad de la integración
+2025-06-29,Cliente 030,Enterprise,Perú,Lima,Ana Torres,Automatización,Escala,Referido,Expansión,18618.87,17,11921.39,2,9,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-06-30,Cliente 023,Pyme,Chile,Valparaíso,Luis Rivera,Pagos,Crecimiento,Aliado,En riesgo,638.56,6,368.77,0,8,0,Preocupación de precio durante la conversación de renovación
+2025-07-01,Cliente 012,Mediana empresa,Chile,Santiago,Luis Rivera,Analítica,Escala,Entrada,Expansión,3700.52,6,1650.09,2,7,30.2,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-02,Cliente 025,Mediana empresa,México,Guadalajara,Daniel Ortiz,Sincronización CRM,Crecimiento,Aliado,Activo,2679.87,11,1548.95,0,4,29.4,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-03,Cliente 013,Pyme,Colombia,Cali,Daniel Ortiz,Sincronización CRM,Inicio,Prospección,Activo,677.72,3,301.22,3,9,6.5,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-04,Cliente 052,Mediana empresa,México,CDMX,Daniel Ortiz,Soporte IA,Enterprise,Prospección,Activo,6431.1,5,2775.78,0,7,11.8,Varios tickets sobre confiabilidad de la integración
+2025-07-05,Cliente 085,Enterprise,Colombia,Medellín,Ana Torres,Pagos,Enterprise,Entrada,Activo,16387.77,19,11244.37,2,10,0,Alta adopción por parte del equipo de operaciones
+2025-07-06,Cliente 005,Pyme,Colombia,Medellín,Sofía Vega,Soporte IA,Inicio,Aliado,En riesgo,480.98,2,211.6,1,3,45.7,El cliente pidió reportes más rápidos y dashboards más claros
+2025-07-07,Cliente 071,Pyme,México,Guadalajara,Luis Rivera,Soporte IA,Escala,Aliado,Activo,1013.83,6,755.59,2,5,46.4,Alta adopción por parte del equipo de operaciones
+2025-07-08,Cliente 076,Pyme,México,Monterrey,Daniel Ortiz,Analítica,Enterprise,Entrada,Activo,2579.83,5,1315.64,1,7,11.8,Preocupación de precio durante la conversación de renovación
+2025-07-09,Cliente 038,Pyme,México,Monterrey,Ana Torres,Analítica,Inicio,Aliado,Expansión,735.44,3,551.17,0,7,12.8,Preocupación de precio durante la conversación de renovación
+2025-07-10,Cliente 068,Enterprise,Colombia,Cali,Daniel Ortiz,Analítica,Inicio,Referido,Perdido,6935.94,21,4465.87,2,7,14.7,Preocupación de precio durante la conversación de renovación
+2025-07-11,Cliente 016,Pyme,Perú,Lima,Ana Torres,Automatización,Escala,Referido,Activo,2189.02,7,1132.4,1,5,38.3,Bajo uso durante el último mes
+2025-07-12,Cliente 064,Pyme,México,Guadalajara,Ana Torres,Automatización,Inicio,Aliado,En riesgo,911.64,3,557.65,0,7,9.3,Varios tickets sobre confiabilidad de la integración
+2025-07-13,Cliente 034,Mediana empresa,México,CDMX,Carlos Méndez,Pagos,Crecimiento,Referido,Activo,2315.01,12,1645.19,0,3,44.6,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-14,Cliente 055,Mediana empresa,México,Monterrey,Carlos Méndez,Automatización,Enterprise,Referido,Expansión,7293.53,7,5491.14,1,7,19.0,Preocupación de precio durante la conversación de renovación
+2025-07-15,Cliente 070,Pyme,México,CDMX,Daniel Ortiz,Sincronización CRM,Crecimiento,Prospección,Activo,907.68,5,421.84,0,5,15.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-16,Cliente 002,Pyme,Estados Unidos,Austin,Daniel Ortiz,Automatización,Crecimiento,Entrada,Expansión,900.31,3,575.94,0,8,0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-17,Cliente 017,Pyme,Colombia,Cali,Ana Torres,Automatización,Inicio,Entrada,Perdido,668.69,1,357.24,1,5,38.0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-18,Cliente 003,Mediana empresa,Perú,Arequipa,Daniel Ortiz,Analítica,Crecimiento,Prospección,Activo,2060.05,8,1241.18,1,7,7.1,Bajo uso durante el último mes
+2025-07-19,Cliente 010,Mediana empresa,Perú,Lima,Ana Torres,Sincronización CRM,Crecimiento,Prospección,Activo,2320.94,6,1368.07,2,9,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-07-20,Cliente 014,Mediana empresa,Perú,Arequipa,Luis Rivera,Soporte IA,Escala,Entrada,Perdido,4257.0,8,2017.93,1,4,46.1,Preocupación de precio durante la conversación de renovación
+2025-07-21,Cliente 073,Pyme,México,Monterrey,Sofía Vega,Pagos,Escala,Entrada,Activo,1238.12,2,661.28,0,8,4.2,Varios tickets sobre confiabilidad de la integración
+2025-07-22,Cliente 030,Pyme,Chile,Santiago,Luis Rivera,Soporte IA,Escala,Referido,Activo,1215.12,6,664.32,0,7,7.1,Bajo uso durante el último mes
+2025-07-23,Cliente 030,Mediana empresa,Perú,Lima,Daniel Ortiz,Automatización,Escala,Referido,Expansión,4847.3,7,3424.66,0,6,10.2,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-24,Cliente 081,Enterprise,Colombia,Bogotá,Sofía Vega,Analítica,Inicio,Referido,Activo,5797.49,18,3592.41,4,4,56.5,Bajo uso durante el último mes
+2025-07-25,Cliente 004,Mediana empresa,Estados Unidos,Miami,Daniel Ortiz,Pagos,Enterprise,Referido,Activo,4419.76,6,2989.15,2,9,14.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-07-26,Cliente 010,Mediana empresa,Colombia,Medellín,Sofía Vega,Soporte IA,Escala,Referido,En riesgo,3577.21,11,2116.84,1,7,18.3,Alta adopción por parte del equipo de operaciones
+2025-07-27,Cliente 020,Enterprise,México,Guadalajara,Sofía Vega,Soporte IA,Inicio,Aliado,En riesgo,6537.52,13,2973.81,0,6,13.3,Bajo uso durante el último mes
+2025-07-28,Cliente 037,Pyme,Colombia,Bogotá,Luis Rivera,Analítica,Escala,Aliado,Activo,1326.49,5,690.0,1,5,25.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-07-29,Cliente 036,Pyme,Colombia,Bogotá,Carlos Méndez,Sincronización CRM,Enterprise,Entrada,En riesgo,2025.01,3,1001.29,0,8,0,Preocupación de precio durante la conversación de renovación
+2025-07-30,Cliente 001,Pyme,Perú,Arequipa,Luis Rivera,Sincronización CRM,Enterprise,Referido,Expansión,2079.53,1,1263.36,1,5,21.2,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-07-31,Cliente 056,Pyme,Colombia,Bogotá,Carlos Méndez,Analítica,Enterprise,Entrada,Expansión,2216.31,4,1055.9,1,6,25.7,Alta adopción por parte del equipo de operaciones
+2025-08-01,Cliente 089,Pyme,Estados Unidos,Austin,Ana Torres,Pagos,Inicio,Entrada,Expansión,756.5,5,488.56,1,9,4.4,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-08-02,Cliente 020,Pyme,Colombia,Medellín,Carlos Méndez,Automatización,Inicio,Entrada,Activo,864.55,6,364.11,0,9,0,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-03,Cliente 079,Pyme,México,Monterrey,Carlos Méndez,Soporte IA,Crecimiento,Aliado,Expansión,1021.47,5,738.16,2,4,45.8,Varios tickets sobre confiabilidad de la integración
+2025-08-04,Cliente 070,Pyme,Colombia,Bogotá,Carlos Méndez,Soporte IA,Enterprise,Prospección,Activo,1582.43,2,1209.41,1,6,19.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-08-05,Cliente 077,Pyme,Colombia,Medellín,Carlos Méndez,Pagos,Inicio,Referido,Activo,347.54,2,242.53,1,8,2.8,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-06,Cliente 035,Pyme,Colombia,Cali,Ana Torres,Sincronización CRM,Crecimiento,Aliado,Expansión,936.82,4,604.35,1,9,0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-07,Cliente 049,Pyme,Chile,Valparaíso,Daniel Ortiz,Analítica,Crecimiento,Aliado,Activo,861.74,3,423.49,2,8,21.2,Varios tickets sobre confiabilidad de la integración
+2025-08-08,Cliente 043,Pyme,México,CDMX,Ana Torres,Analítica,Escala,Entrada,Activo,1545.5,4,806.62,0,9,0,Bajo uso durante el último mes
+2025-08-09,Cliente 084,Pyme,Perú,Arequipa,Ana Torres,Analítica,Inicio,Referido,Activo,527.57,4,362.63,0,6,3.9,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-10,Cliente 042,Pyme,Chile,Valparaíso,Carlos Méndez,Soporte IA,Inicio,Prospección,Activo,743.01,2,426.96,0,7,0,Preocupación de precio durante la conversación de renovación
+2025-08-11,Cliente 049,Pyme,México,Guadalajara,Carlos Méndez,Pagos,Escala,Referido,Activo,815.48,6,628.79,0,8,0,Varios tickets sobre confiabilidad de la integración
+2025-08-12,Cliente 019,Mediana empresa,Estados Unidos,Miami,Daniel Ortiz,Automatización,Inicio,Referido,Activo,2277.97,10,1644.02,1,3,50.2,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-08-13,Cliente 033,Pyme,Chile,Santiago,Ana Torres,Sincronización CRM,Escala,Referido,Activo,1580.83,3,816.55,1,9,0,Preocupación de precio durante la conversación de renovación
+2025-08-14,Cliente 042,Pyme,México,Monterrey,Ana Torres,Analítica,Crecimiento,Entrada,Activo,993.84,4,685.09,0,8,5.4,Necesita apoyo de onboarding y documentación más clara
+2025-08-15,Cliente 081,Mediana empresa,México,Monterrey,Daniel Ortiz,Soporte IA,Crecimiento,Prospección,Activo,2017.06,10,1570.22,0,3,31.4,Varios tickets sobre confiabilidad de la integración
+2025-08-16,Cliente 073,Mediana empresa,Colombia,Cali,Luis Rivera,Pagos,Enterprise,Prospección,Activo,5188.84,8,3928.12,2,9,13.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-08-17,Cliente 002,Pyme,Colombia,Medellín,Ana Torres,Analítica,Inicio,Aliado,Expansión,610.09,2,276.85,0,7,6.5,Preocupación de precio durante la conversación de renovación
+2025-08-18,Cliente 045,Mediana empresa,Estados Unidos,Austin,Carlos Méndez,Soporte IA,Crecimiento,Prospección,Activo,2224.63,9,1383.72,0,6,13.9,Necesita apoyo de onboarding y documentación más clara
+2025-08-19,Cliente 034,Mediana empresa,Colombia,Cali,Daniel Ortiz,Soporte IA,Inicio,Prospección,Activo,2361.98,7,1618.94,0,4,22.2,Preocupación de precio durante la conversación de renovación
+2025-08-20,Cliente 028,Pyme,Perú,Lima,Luis Rivera,Automatización,Crecimiento,Entrada,Activo,982.73,4,593.78,0,4,24.5,Alta adopción por parte del equipo de operaciones
+2025-08-21,Cliente 031,Mediana empresa,Colombia,Medellín,Sofía Vega,Sincronización CRM,Inicio,Prospección,En riesgo,1791.69,10,1322.24,3,2,79.9,Necesita apoyo de onboarding y documentación más clara
+2025-08-22,Cliente 056,Mediana empresa,México,Guadalajara,Ana Torres,Pagos,Enterprise,Prospección,En riesgo,4514.76,11,3148.9,0,6,14.3,Preocupación de precio durante la conversación de renovación
+2025-08-23,Cliente 049,Pyme,Estados Unidos,Miami,Luis Rivera,Soporte IA,Crecimiento,Aliado,En riesgo,653.49,5,347.49,2,7,17.1,El cliente pidió reportes más rápidos y dashboards más claros
+2025-08-24,Cliente 083,Pyme,México,CDMX,Carlos Méndez,Sincronización CRM,Crecimiento,Entrada,Expansión,881.71,10,571.0,0,5,27.5,Alta adopción por parte del equipo de operaciones
+2025-08-25,Cliente 005,Pyme,México,Monterrey,Luis Rivera,Automatización,Escala,Aliado,Activo,1175.85,4,846.92,2,8,18.2,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-08-26,Cliente 025,Mediana empresa,Chile,Valparaíso,Carlos Méndez,Automatización,Enterprise,Prospección,Activo,6494.1,10,4686.0,0,7,10.5,Alta adopción por parte del equipo de operaciones
+2025-08-27,Cliente 023,Pyme,Colombia,Bogotá,Daniel Ortiz,Soporte IA,Inicio,Entrada,Activo,554.82,3,344.99,2,8,20.7,Alta adopción por parte del equipo de operaciones
+2025-08-28,Cliente 015,Enterprise,Colombia,Bogotá,Luis Rivera,Sincronización CRM,Crecimiento,Entrada,En riesgo,9069.1,18,5031.81,1,9,0,Preocupación de precio durante la conversación de renovación
+2025-08-29,Cliente 017,Pyme,Colombia,Medellín,Luis Rivera,Sincronización CRM,Inicio,Prospección,Activo,538.09,5,387.8,0,8,5.6,Alta adopción por parte del equipo de operaciones
+2025-08-30,Cliente 063,Pyme,Colombia,Cali,Daniel Ortiz,Soporte IA,Escala,Aliado,En riesgo,925.64,5,568.03,0,8,0,Preocupación de precio durante la conversación de renovación
+2025-08-31,Cliente 044,Mediana empresa,México,Monterrey,Carlos Méndez,Analítica,Crecimiento,Aliado,Expansión,2151.7,12,1265.99,1,7,16.2,Varios tickets sobre confiabilidad de la integración
+2025-09-01,Cliente 048,Mediana empresa,Chile,Santiago,Carlos Méndez,Analítica,Crecimiento,Entrada,Activo,2026.06,7,1509.56,1,7,6.3,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-09-02,Cliente 079,Pyme,México,Guadalajara,Sofía Vega,Soporte IA,Escala,Prospección,En riesgo,1646.66,5,1047.83,0,7,0,Alta adopción por parte del equipo de operaciones
+2025-09-03,Cliente 054,Pyme,Colombia,Cali,Sofía Vega,Pagos,Inicio,Aliado,Activo,730.53,7,554.78,0,8,1.0,El cliente pidió reportes más rápidos y dashboards más claros
+2025-09-04,Cliente 012,Pyme,Chile,Valparaíso,Sofía Vega,Soporte IA,Inicio,Entrada,En riesgo,770.41,9,379.15,1,8,0,Preocupación de precio durante la conversación de renovación
+2025-09-05,Cliente 020,Mediana empresa,Perú,Arequipa,Ana Torres,Soporte IA,Inicio,Entrada,Expansión,2089.46,7,1564.21,0,5,24.1,Alta adopción por parte del equipo de operaciones
+2025-09-06,Cliente 050,Pyme,Chile,Santiago,Sofía Vega,Sincronización CRM,Enterprise,Referido,Activo,2101.96,1,1286.99,0,9,0,Necesita apoyo de onboarding y documentación más clara
+2025-09-07,Cliente 031,Pyme,Colombia,Bogotá,Daniel Ortiz,Pagos,Escala,Entrada,Activo,1182.38,4,586.51,1,5,32.1,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-09-08,Cliente 040,Pyme,Perú,Lima,Carlos Méndez,Soporte IA,Inicio,Referido,Activo,650.55,4,468.61,0,7,7.7,El cliente pidió reportes más rápidos y dashboards más claros
+2025-09-09,Cliente 021,Pyme,México,Guadalajara,Sofía Vega,Analítica,Crecimiento,Referido,Activo,1002.61,5,688.94,1,9,5.2,Varios tickets sobre confiabilidad de la integración
+2025-09-10,Cliente 069,Enterprise,Colombia,Bogotá,Sofía Vega,Pagos,Escala,Entrada,En riesgo,8952.85,20,4846.73,3,5,41.0,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-09-11,Cliente 056,Pyme,Colombia,Bogotá,Sofía Vega,Soporte IA,Crecimiento,Prospección,Activo,855.2,3,611.38,2,5,35.1,Varios tickets sobre confiabilidad de la integración
+2025-09-12,Cliente 039,Mediana empresa,México,Guadalajara,Ana Torres,Pagos,Escala,Aliado,En riesgo,2900.66,8,1776.93,1,7,12.9,Está satisfecho con la automatización pero quiere más campos del CRM
+2025-09-13,Cliente 089,Mediana empresa,Estados Unidos,Nueva York,Daniel Ortiz,Pagos,Crecimiento,Entrada,Expansión,1974.88,11,1344.05,1,7,13.3,Sponsor ejecutivo positivo y oportunidad de expansión
+2025-09-14,Cliente 055,Pyme,Colombia,Cali,Carlos Méndez,Analítica,Escala,Referido,Activo,1619.19,3,1142.68,0,4,30.3,Preocupación de precio durante la conversación de renovación
+2025-09-15,Cliente 089,Mediana empresa,Colombia,Medellín,Luis Rivera,Soporte IA,Inicio,Aliado,Activo,1671.63,7,1249.56,0,6,10.1,Necesita apoyo de onboarding y documentación más clara
+2025-09-16,Cliente 036,Pyme,México,Monterrey,Carlos Méndez,Analítica,Inicio,Entrada,Activo,688.85,2,344.14,0,5,22.2,Bajo uso durante el último mes
+2025-09-17,Cliente 082,Mediana empresa,México,Guadalajara,Daniel Ortiz,Analítica,Crecimiento,Prospección,Expansión,2528.57,6,1737.95,1,7,16.5,Alta adopción por parte del equipo de operaciones
+2025-09-18,Cliente 081,Pyme,Estados Unidos,Miami,Luis Rivera,Pagos,Crecimiento,Prospección,Expansión,908.72,6,529.37,0,7,5.7,Bajo uso durante el último mes
+2025-09-19,Cliente 003,Mediana empresa,Colombia,Cali,Sofía Vega,Automatización,Crecimiento,Aliado,En riesgo,3203.23,9,1801.72,0,7,0,Bajo uso durante el último mes
+2025-09-20,Cliente 071,Pyme,Chile,Valparaíso,Daniel Ortiz,Sincronización CRM,Inicio,Prospección,Activo,598.23,4,394.31,0,5,22.7,Bajo uso durante el último mes
+2025-09-21,Cliente 029,Enterprise,México,Guadalajara,Carlos Méndez,Soporte IA,Inicio,Aliado,Activo,5236.05,21,3637.26,2,5,30.0,Bajo uso durante el último mes
+2025-09-22,Cliente 054,Pyme,Chile,Santiago,Luis Rivera,Pagos,Crecimiento,Entrada,Activo,835.43,1,571.08,2,6,25.0,Está satisfecho con la automatización pero quiere más campos del CRM

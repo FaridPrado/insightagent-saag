@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>InsightAgent SaaG - Analista de negocio con IA</title>
+  <meta name="description" content="Agente conversacional de inteligencia de negocio para equipos que necesitan respuestas claras desde sus datos." />
+  <script>
+    (() => {
+      const saved = localStorage.getItem('insightagent-theme') || 'dark';
+      document.documentElement.dataset.theme = saved === 'light' ? 'light' : 'dark';
+    })();
+  </script>
+  <script>
+    // If the frontend is deployed separately (for example on Vercel),
+    // set this value to your Render backend URL, without trailing slash:
+    // window.INSIGHTAGENT_API_BASE_URL = "https://tu-backend.onrender.com";
+    window.INSIGHTAGENT_API_BASE_URL = window.INSIGHTAGENT_API_BASE_URL || "";
+  </script>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-row">
+        <img src="/static/logo.png" class="brand-logo">
+        <div class="brand-copy">
+          <div class="brand-name">InsightAgent</div>
+          <div class="brand-subtitle">Agente de datos para negocio</div>
+        </div>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="true">
+        <span class="theme-toggle-icon" aria-hidden="true"></span>
+        <span id="themeLabel">Cambiar a modo claro</span>
+      </button>
+
+      <div class="side-card upload-card" id="dropZone">
+        <div class="eyebrow">1. Conecta tus datos</div>
+        <h2>Sube un archivo CSV, Excel o documento</h2>
+        <p>Si el archivo es tabular, el agente activa análisis avanzado. Si es documental, responderá desde su contenido.</p>
+        <input type="file" id="fileInput" accept=".csv,.xlsx,.xls,.txt,.md,.json" hidden />
+        <button class="primary-btn full" id="uploadButton">Subir archivo</button>
+        <button class="secondary-btn full" id="demoButton">Usar datos de ejemplo</button>
+        <div class="drop-hint">También puedes arrastrar el archivo aquí.</div>
+      </div>
+
+      <div class="side-card dataset-card" id="datasetCard">
+        <div class="eyebrow">Conjunto de datos activo</div>
+        <h3 id="datasetName">Sin datos cargados</h3>
+        <div class="mini-grid">
+          <div><span id="rowCount">0</span><small>Filas</small></div>
+          <div><span id="colCount">0</span><small>Columnas</small></div>
+          <div><span id="metricCount">0</span><small>Métricas</small></div>
+          <div><span id="dateCount">0</span><small>Fechas</small></div>
+        </div>
+        <div id="sheetSelector" class="sheet-selector hidden" aria-live="polite"></div>
+      </div>
+
+      <div class="side-card">
+        <div class="eyebrow">Modo del agente</div>
+        <div class="agent-status" id="agentMode">Analizador local seguro</div>
+        <p class="small-copy">Cuando hay un proveedor LLM configurado, el agente interpreta la pregunta y redacta la respuesta. Los cálculos se mantienen en herramientas seguras.</p>
+      </div>
+
+      <div class="side-card">
+        <div class="eyebrow">Preguntas sugeridas</div>
+        <div id="suggestions" class="suggestions muted-list">
+          Carga datos para ver preguntas útiles.
+        </div>
+      </div>
+
+      <div class="side-footer">
+        <span>FastAPI + Pandas + LLM multi-proveedor</span>
+        <span>Análisis ejecutivo verificable</span>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section class="hero-card">
+        <div class="hero-copy">
+          <div class="pill">Agente de inteligencia de negocios</div>
+          <h1>Haz preguntas. Toma decisiones.</h1>
+          <p>InsightAgent convierte archivos de negocio en respuestas claras: KPIs, rankings, tendencias, anomalías, riesgo de clientes y recomendaciones accionables.</p>
+          <div class="hero-actions">
+            <button class="primary-btn" id="focusChatButton">Preguntar al agente</button>
+            <button class="secondary-btn" id="reportButton">Exportar reporte</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-grid">
+        <div class="left-stack">
+          <section class="content-card" id="profileSection">
+            <details class="profile-details" id="profileDetails" open>
+              <summary class="profile-summary">
+                <div class="profile-heading">
+                  <div class="eyebrow">2. Perfil automático</div>
+                  <h2>Mapa del conjunto de datos</h2>
+                </div>
+                <div class="profile-summary-actions">
+                  <span class="status-chip" id="statusChip"><span class="status-dot"></span>Esperando datos</span>
+                  <span class="profile-toggle-label" aria-hidden="true"></span>
+                </div>
+              </summary>
+              <div class="profile-body">
+                <div id="kpiGrid" class="kpi-grid empty-state">
+                  <p>Sube un archivo para activar el perfilado, la vista previa y las preguntas sugeridas.</p>
+                </div>
+                <div id="warnings" class="warnings"></div>
+                <div class="columns-wrap" id="columnsWrap"></div>
+                <details class="preview-details" id="previewDetails">
+                  <summary>Ver vista previa de datos</summary>
+                  <div class="table-wrap" id="previewTable"></div>
+                </details>
+              </div>
+            </details>
+          </section>
+
+          <section class="content-card">
+            <div class="section-header chat-section-header">
+              <div>
+                <div class="eyebrow">3. Conversa</div>
+                <h2>Asistente ejecutivo</h2>
+              </div>
+              <div class="section-actions">
+                <button class="ghost-btn" id="exportChatButton" type="button">Exportar chat</button>
+                <button class="ghost-btn" id="clearChatButton" type="button">Limpiar chat</button>
+              </div>
+            </div>
+            <div class="chat-window" id="chatWindow">
+              <div class="message assistant-message">
+                <img src="/static/logo.png" class="mini-logo">
+                <div class="bubble">
+                  <strong>Listo para analizar.</strong>
+                  <p>Sube un archivo CSV, Excel o documento, o usa los datos de ejemplo. El agente preparará métricas, tablas, gráficos y recomendaciones sobre el conjunto cargado.</p>
+                </div>
+              </div>
+            </div>
+            <form id="chatForm" class="chat-form">
+              <input id="questionInput" type="text" placeholder="Pregunta: Dame un resumen ejecutivo de este conjunto de datos" autocomplete="off" />
+              <button class="primary-btn" type="submit">Enviar</button>
+            </form>
+          </section>
+        </div>
+
+        <aside class="right-stack">
+          <section class="content-card sticky-card">
+            <div class="section-header compact">
+              <div>
+                <div class="eyebrow">Evidencia</div>
+                <h2>Análisis actual</h2>
+              </div>
+            </div>
+            <div id="insightPanel" class="insight-panel empty-state">
+              <p>El análisis más reciente aparecerá aquí con gráfico, tabla y recomendaciones.</p>
+            </div>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <div class="backend-wakeup hidden" id="backendWakeup" role="status" aria-live="polite">
+    <div class="backend-wakeup-icon" aria-hidden="true"></div>
+    <div class="backend-wakeup-copy">
+      <strong>Preparando el servicio</strong>
+      <span>El backend gratuito puede tardar unos segundos si estuvo inactivo.</span>
+    </div>
+    <button class="backend-wakeup-retry" id="backendWakeupRetry" type="button">Reintentar</button>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
