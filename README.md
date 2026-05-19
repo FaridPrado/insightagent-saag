@@ -17,7 +17,7 @@ El usuario puede cargar un archivo, explorar su estructura, conversar con los da
 
 **https://insightagent-saag.onrender.com**
 
-> La primera carga puede tardar unos segundos si el servicio gratuito está en reposo.
+> La primera carga puede tardar unos segundos si el servicio está en reposo.
 
 ---
 
